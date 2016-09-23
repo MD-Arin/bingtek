@@ -3286,3 +3286,260 @@
 127.0.0.1 - - [23/Sep/2016:15:25:03 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
 127.0.0.1 - - [23/Sep/2016:15:25:03 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
 127.0.0.1 - - [23/Sep/2016:15:25:03 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:26:24 +0300] "GET / HTTP/1.1" 200 4199
+127.0.0.1 - - [23/Sep/2016:16:26:24 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:26:24 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:26:24 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:26:24 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:26:24 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:26:50 +0300] "GET / HTTP/1.1" 200 4199
+127.0.0.1 - - [23/Sep/2016:16:26:50 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:26:50 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:26:50 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:26:50 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:26:50 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:27:41 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:27:41 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:27:41 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:27:41 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:27:41 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:28:00 +0300] "GET / HTTP/1.1" 200 4191
+127.0.0.1 - - [23/Sep/2016:16:28:00 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:00 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:00 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:00 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:00 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:25 +0300] "GET / HTTP/1.1" 200 4227
+127.0.0.1 - - [23/Sep/2016:16:28:25 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:25 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:25 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:25 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:25 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:37 +0300] "GET / HTTP/1.1" 200 4239
+127.0.0.1 - - [23/Sep/2016:16:28:37 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:37 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:37 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:37 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:37 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:51 +0300] "GET / HTTP/1.1" 200 4268
+127.0.0.1 - - [23/Sep/2016:16:28:51 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:51 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:51 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:51 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:28:51 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:29:11 +0300] "GET / HTTP/1.1" 200 4280
+127.0.0.1 - - [23/Sep/2016:16:29:11 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:29:11 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:29:11 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:29:11 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:29:11 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:29:31 +0300] "GET / HTTP/1.1" 200 4280
+127.0.0.1 - - [23/Sep/2016:16:29:31 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:29:31 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:29:31 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:29:31 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:29:31 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:30:22 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:30:22 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:30:22 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:30:22 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:30:22 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:30:53 +0300] "GET / HTTP/1.1" 200 4405
+127.0.0.1 - - [23/Sep/2016:16:30:53 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:30:53 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:30:53 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:30:53 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:30:53 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:31:13 +0300] "GET / HTTP/1.1" 200 4405
+127.0.0.1 - - [23/Sep/2016:16:31:13 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:31:13 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:31:13 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:31:13 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:31:13 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:32:04 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:32:04 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:32:04 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:32:04 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:32:04 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:33:48 +0300] "GET / HTTP/1.1" 200 5634
+127.0.0.1 - - [23/Sep/2016:16:33:48 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:33:49 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:33:49 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:33:49 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:33:49 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:33:49 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:34:39 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:34:39 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:34:39 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:34:39 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:35:02 +0300] "GET / HTTP/1.1" 200 6092
+127.0.0.1 - - [23/Sep/2016:16:35:02 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:35:02 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:35:02 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:35:02 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:35:02 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:35:02 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:35:43 +0300] "GET / HTTP/1.1" 200 6143
+127.0.0.1 - - [23/Sep/2016:16:35:43 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:35:43 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:35:43 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:35:43 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:35:43 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:35:43 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:36:26 +0300] "GET / HTTP/1.1" 200 6154
+127.0.0.1 - - [23/Sep/2016:16:36:26 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:36:26 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:36:26 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:36:26 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:36:26 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:36:26 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:37:01 +0300] "GET / HTTP/1.1" 200 6225
+127.0.0.1 - - [23/Sep/2016:16:37:01 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:37:01 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:37:01 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:37:01 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:37:01 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:37:01 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:37:39 +0300] "GET / HTTP/1.1" 200 6178
+127.0.0.1 - - [23/Sep/2016:16:37:39 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:37:39 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:37:39 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:37:39 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:37:39 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:37:39 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:38:17 +0300] "GET / HTTP/1.1" 200 6217
+127.0.0.1 - - [23/Sep/2016:16:38:17 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:38:17 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:38:17 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:38:17 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:38:17 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:38:17 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:39:08 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:39:08 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:39:56 +0300] "GET / HTTP/1.1" 200 6133
+127.0.0.1 - - [23/Sep/2016:16:39:56 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:39:56 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:39:57 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:39:57 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:39:57 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:39:57 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:40:47 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:40:47 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:40:47 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:40:47 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:40:48 +0300] "GET / HTTP/1.1" 200 6047
+127.0.0.1 - - [23/Sep/2016:16:40:48 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:40:48 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:40:48 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:40:48 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:40:48 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:40:48 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:41:39 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:41:39 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:41:39 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:41:39 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:41:50 +0300] "GET / HTTP/1.1" 200 5694
+127.0.0.1 - - [23/Sep/2016:16:41:50 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:41:50 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:41:50 +0300] "GET /res/images/placeholder-0.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:41:51 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:41:51 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:41:51 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:41:51 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:42:19 +0300] "GET / HTTP/1.1" 200 5694
+127.0.0.1 - - [23/Sep/2016:16:42:19 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:42:19 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:42:19 +0300] "GET /res/images/placeholder-0.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:42:19 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:42:19 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:42:19 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:42:19 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:43:10 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:43:10 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:43:10 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:16:52:44 +0300] "GET / HTTP/1.1" 200 5694
+127.0.0.1 - - [23/Sep/2016:16:52:44 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:52:44 +0300] "GET /res/css/custom.css HTTP/1.1" 200 2967
+127.0.0.1 - - [23/Sep/2016:16:52:44 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:52:44 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:52:44 +0300] "GET /res/images/placeholder-0.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:16:52:44 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:54:40 +0300] "GET / HTTP/1.1" 200 5811
+127.0.0.1 - - [23/Sep/2016:18:54:40 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 200 146074
+127.0.0.1 - - [23/Sep/2016:18:54:40 +0300] "GET /res/css/custom.css HTTP/1.1" 200 2967
+127.0.0.1 - - [23/Sep/2016:18:54:40 +0300] "GET /res/images/placeholder-0.jpg HTTP/1.1" 200 140405
+127.0.0.1 - - [23/Sep/2016:18:54:40 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 200 689513
+127.0.0.1 - - [23/Sep/2016:18:54:40 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 200 86351
+127.0.0.1 - - [23/Sep/2016:18:54:40 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 200 69707
+127.0.0.1 - - [23/Sep/2016:18:54:40 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+127.0.0.1 - - [23/Sep/2016:18:54:57 +0300] "GET / HTTP/1.1" 200 5819
+127.0.0.1 - - [23/Sep/2016:18:54:57 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:54:57 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:54:57 +0300] "GET /res/images/placeholder-0.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:54:57 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:54:57 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:54:57 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:54:57 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:55:48 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:18:55:48 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:18:55:48 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:18:55:48 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:18:55:48 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:18:56:01 +0300] "GET / HTTP/1.1" 200 7110
+127.0.0.1 - - [23/Sep/2016:18:56:01 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:56:01 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:56:01 +0300] "GET /res/images/placeholder-0.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:56:01 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:56:01 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:56:01 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:56:01 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:56:52 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:18:56:52 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:18:56:52 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:18:56:52 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:18:58:13 +0300] "GET / HTTP/1.1" 200 7692
+127.0.0.1 - - [23/Sep/2016:18:58:13 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:58:13 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:58:13 +0300] "GET /res/images/placeholder-0.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:58:13 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:58:13 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:58:13 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:58:13 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:58:30 +0300] "GET / HTTP/1.1" 200 7653
+127.0.0.1 - - [23/Sep/2016:18:58:30 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:58:30 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:58:30 +0300] "GET /res/images/placeholder-0.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:58:30 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:58:30 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:58:30 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:58:30 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:59:13 +0300] "GET / HTTP/1.1" 200 7673
+127.0.0.1 - - [23/Sep/2016:18:59:13 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:59:13 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:59:13 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:59:13 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:59:13 +0300] "GET /res/images/placeholder-0.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:59:13 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:18:59:13 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:00:01 +0300] "GET / HTTP/1.1" 200 7722
+127.0.0.1 - - [23/Sep/2016:19:00:01 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:00:01 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:00:01 +0300] "GET /res/images/placeholder-0.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:00:01 +0300] "GET /res/images/placeholder-1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:00:01 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:00:01 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:00:01 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:01:13 +0300] "GET / HTTP/1.1" 200 3145
+127.0.0.1 - - [23/Sep/2016:19:01:13 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:01:13 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:01:13 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:01:13 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:01:13 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:02:04 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:19:02:04 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:19:02:04 +0300] "-" 408 -
+127.0.0.1 - - [23/Sep/2016:19:02:35 +0300] "GET / HTTP/1.1" 200 3145
+127.0.0.1 - - [23/Sep/2016:19:02:35 +0300] "GET /res/css/bootstrap.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:02:35 +0300] "GET /res/css/custom.css HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:02:35 +0300] "GET /res/js/jquery.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [23/Sep/2016:19:02:35 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
