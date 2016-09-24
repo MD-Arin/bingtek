@@ -9,7 +9,7 @@
   </head>
   <body>
     <?php require('../views/nav.php'); ?>
-    <?php require('../views/fourth-ps.php'); ?>
+    <?php require('../views/dash-login.php'); ?>
     <?php require('../views/footer.php'); ?>
   </body>
   <script type="text/javascript" src="res/js/jquery.min.js"></script>
