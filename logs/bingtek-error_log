@@ -1,0 +1,2 @@
+[Mon Sep 26 02:20:37.504047 2016] [:error] [pid 525] [client 127.0.0.1:45576] PHP Warning:  require(../views/dashboard.php): failed to open stream: No such file or directory in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 13
+[Mon Sep 26 02:20:37.504131 2016] [:error] [pid 525] [client 127.0.0.1:45576] PHP Fatal error:  require(): Failed opening required '../views/dashboard.php' (include_path='.:') in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 13
