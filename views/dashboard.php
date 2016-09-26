@@ -2,26 +2,30 @@
       <div class="row">
         <div class="cols-xs-2 col-sm-2 col-md-2 col-lg-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
+            <li class="active"><a href="#">Edit Navigation <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Navbar and Top Panel</a></li>
+            <li><a href="#">Footer and Bottom Panel</a></li>
           </ul>
           <ul class="nav nav-sidebar">
-            <li><a href="#">Nav item</a></li>
-            <li><a href="#">Nav item again</a></li>
-            <li><a href="#">One more nav</a></li>
-            <li><a href="#">Another nav item</a></li>
-            <li><a href="#">More navigation</a></li>
+            <li><a href="#">Edit Pages</a></li>
+            <li><a href="#">Home Page</a></li>
+            <li><a href="#">About Page</a></li>
+            <li><a href="#">Products and Services</a></li>
+              <ul class="nav nav-sidebar">
+                <li><a href="#">First Product Page</a></li>
+                <li><a href="#">Second Product Page</a></li>
+                <li><a href="#">Third Product Page</a></li>
+                <li><a href="#">Fourth Product Page</a></li>
+              </ul>
+            <li><a href="#">Contacts Page</a></li>
           </ul>
           <ul class="nav nav-sidebar">
-            <li><a href="#">Nav item again</a></li>
-            <li><a href="#">One more nav</a></li>
-            <li><a href="#">Another nav item</a></li>
+            <li><a href="#">Themes</a></li>
+            <li><a href="#">Background and Colors</a></li>
           </ul>
         </div>
-        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 main">
-          <h1 class="text-cener">Dynamically loaded Depending on sidebar</h1>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 main vertical-line-left">
+          <h1 class="text-center"><?php require('dash-views/nav-edit.php'); ?></h1>
         </div>
       </div>
     </div>
