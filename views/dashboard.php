@@ -25,7 +25,7 @@
           </ul>
         </div>
         <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 main vertical-line-left">
-          <h1 class="text-center"><?php require('dash-views/home-page-edit.php'); ?></h1>
+          <?php require('dash-views/home-page-edit.php'); ?>
         </div>
       </div>
     </div>
