@@ -2,7 +2,7 @@
       <div class="row">
         <div class="cols-xs-2 col-sm-2 col-md-2 col-lg-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Edit Navigation <span class="sr-only">(current)</span></a></li>
+            <li class="#"><a href="#">Edit Navigation</a></li>
             <li><a href="#">Navbar and Top Panel</a></li>
             <li><a href="#">Footer and Bottom Panel</a></li>
           </ul>
