@@ -17,7 +17,7 @@
     <hr>
     <div class="panel panel-heading">
       <div class="float-left">
-        <h5>Copyright SSS 2016</h5>
+        <h5>Copyright &copy SSS 2016</h5>
       </div>
     </div>
   </div>

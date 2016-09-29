@@ -5479,3 +5479,7 @@
 127.0.0.1 - - [29/Sep/2016:04:47:29 +0300] "GET /res/js/bootstrap.js HTTP/1.1" 304 -
 127.0.0.1 - - [29/Sep/2016:04:47:29 +0300] "GET /res/js/holder.js HTTP/1.1" 404 1161
 127.0.0.1 - - [29/Sep/2016:04:47:29 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2016:05:40:10 +0300] "GET / HTTP/1.1" 200 4668
+127.0.0.1 - - [29/Sep/2016:05:40:10 +0300] "GET /res/fonts/* HTTP/1.1" 404 1161
+127.0.0.1 - - [29/Sep/2016:05:40:10 +0300] "GET /res/js/holder.js HTTP/1.1" 404 1161
+127.0.0.1 - - [29/Sep/2016:05:40:11 +0300] "GET /favicon.ico HTTP/1.1" 404 1161
