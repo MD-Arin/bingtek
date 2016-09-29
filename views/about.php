@@ -12,6 +12,7 @@
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
       <h4>Birthday: 132BC</h4>
       <h4>Founder: Father Abraham</h4>
+      <hr>
       <h4>The Story: </h4>
       <hr>
       <p>
@@ -68,6 +69,7 @@
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
       <h4>Year: 12BC</h4>
       <h4>Accomplishment: Father of all nations</h4>
+      <hr>
       <h4>The Story: </h4>
       <hr>
       <p>
@@ -85,6 +87,7 @@
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
       <h4>Year: 12BC</h4>
       <h4>Accomplishment: Father of all nations</h4>
+      <hr>
       <h4>The Story: </h4>
       <hr>
       <p>
@@ -211,19 +214,19 @@
   </div>
   <div class="row">
     <div class="col=xs-4 col-sm-4 col-md-4 col-lg-4">
-      <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+      <img src="res/images/user-placeholder.png"
       class="center-block img-circle img-responsive">
       <h3 class="text-center">John Doe</h3>
       <p class="text-center">Developer</p>
     </div>
     <div class="col=xs-4 col-sm-4 col-md-4 col-lg-4">
-      <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+      <img src="res/images/user-placeholder.png"
       class="center-block img-circle img-responsive">
       <h3 class="text-center">John Doe</h3>
       <p class="text-center">Developer</p>
     </div>
     <div class="col=xs-4 col-sm-4 col-md-4 col-lg-4">
-      <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+      <img src="res/images/user-placeholder.png"
       class="center-block img-circle img-responsive">
       <h3 class="text-center">John Doe</h3>
       <p class="text-center">Developer</p>
