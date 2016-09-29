@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="res/css/bootstrap.css" media="screen" title="no title">
     <link rel="stylesheet" href="res/css/custom.css" media="screen" title="no title">
     <link rel="stylesheet" href="res/css/dashboard.css" media="screen" title="no title">
+    <link rel="stylesheet" href="res/fonts/*" media="screen" title="no title">
   </head>
   <body>
     <?php require('../views/nav.php'); ?>
