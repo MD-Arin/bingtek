@@ -25,7 +25,7 @@
           </ul>
         </div>
         <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 main vertical-line-left">
-          <?php require('dash-views/first-ps-page-edit.php'); ?>
+          <?php require('dash-views/second-ps-page-edit.php'); ?>
         </div>
       </div>
     </div>
