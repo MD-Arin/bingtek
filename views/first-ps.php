@@ -66,7 +66,6 @@
       </ul>
     </div>`
   </div>
-</div>
 
 <div class="row">
   <hr>
@@ -137,5 +136,6 @@
         </p>
       </div>
     </div>
+  </div>
   </div>
 </div>
