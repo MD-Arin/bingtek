@@ -2,7 +2,40 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>bingtek</title>
+    <title>
+      <?php
+        switch  ($_GET["q"])
+        {
+          case 'home':
+            echo 'Home';
+            break;
+          case 'about':
+            echo 'About Us';
+            break;
+          case 'first-ps':
+            echo 'Products And Services';
+            break;
+          case 'second-ps':
+            echo 'Products And Services';
+            break;
+          case 'third-ps':
+            echo 'Products And Services';
+            break;
+          case 'fourth-ps':
+            echo 'Products And Services';
+            break;
+          case 'login':
+            echo 'Dashboard Login';
+            break;
+          case 'contacts':
+            echo 'Contact Us';
+            break;
+          default:
+            echo 'Home';
+            break;
+        }
+      ?>
+    </title>
     <link rel="stylesheet" href="res/css/bootstrap.css" media="screen" title="no title">
     <link rel="stylesheet" href="res/css/custom.css" media="screen" title="no title">
     <link rel="stylesheet" href="res/css/dashboard.css" media="screen" title="no title">

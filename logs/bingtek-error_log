@@ -95,3 +95,5 @@
 [Sat Oct 08 16:18:30.135420 2016] [:error] [pid 4510] [client 127.0.0.1:56734] PHP Warning:  require(../views/login.php): failed to open stream: No such file or directory in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 35, referer: http://www.bingtek.local/index.php?q=fourth-ps
 [Sat Oct 08 16:18:30.135507 2016] [:error] [pid 4510] [client 127.0.0.1:56734] PHP Fatal error:  require(): Failed opening required '../views/login.php' (include_path='.:') in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 35, referer: http://www.bingtek.local/index.php?q=fourth-ps
 [Sat Oct 08 16:20:50.967153 2016] [:error] [pid 4619] [client 127.0.0.1:56776] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 14
+[Sat Oct 08 16:28:01.323710 2016] [:error] [pid 523] [client 127.0.0.1:56784] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sat Oct 08 16:28:01.323878 2016] [:error] [pid 523] [client 127.0.0.1:56784] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 47
