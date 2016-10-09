@@ -97,3 +97,97 @@
 [Sat Oct 08 16:20:50.967153 2016] [:error] [pid 4619] [client 127.0.0.1:56776] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 14
 [Sat Oct 08 16:28:01.323710 2016] [:error] [pid 523] [client 127.0.0.1:56784] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
 [Sat Oct 08 16:28:01.323878 2016] [:error] [pid 523] [client 127.0.0.1:56784] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 47
+[Sat Oct 08 21:59:23.400047 2016] [:error] [pid 1955] [client 127.0.0.1:42996] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sat Oct 08 21:59:23.440582 2016] [:error] [pid 1955] [client 127.0.0.1:42996] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 47
+[Sun Oct 09 22:05:17.917007 2016] [:error] [pid 519] [client 127.0.0.1:47248] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 2
+[Sun Oct 09 22:05:39.721774 2016] [:error] [pid 519] [client 127.0.0.1:47260] PHP Parse error:  syntax error, unexpected 'case' (T_CASE), expecting end of file in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 50
+[Sun Oct 09 22:06:29.333613 2016] [:error] [pid 519] [client 127.0.0.1:47272] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 2
+[Sun Oct 09 22:06:52.546107 2016] [:error] [pid 2181] [client 127.0.0.1:47286] PHP Fatal error:  Uncaught Error: Call to undefined function printr() in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php:2\nStack trace:\n#0 /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php(1): require()\n#1 {main}\n  thrown in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 2
+[Sun Oct 09 22:07:06.275886 2016] [:error] [pid 521] [client 127.0.0.1:47292] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 8
+[Sun Oct 09 22:10:13.761557 2016] [:error] [pid 2179] [client 127.0.0.1:47302] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:10:13.762417 2016] [:error] [pid 2179] [client 127.0.0.1:47302] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'bingtek' in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php:3\nStack trace:\n#0 /home/arin/soft-dev/http/vhosts/bingtek/model/database.php(3): PDO->__construct('mysql:host=loca...', 'root', 'root')\n#1 /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php(77): require('/home/arin/soft...')\n#2 {main}\n  thrown in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 3
+[Sun Oct 09 22:10:52.907977 2016] [:error] [pid 523] [client 127.0.0.1:47328] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:14:42.764737 2016] [:error] [pid 2125] [client 127.0.0.1:47342] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:14:42.764971 2016] [:error] [pid 2125] [client 127.0.0.1:47342] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 5
+[Sun Oct 09 22:15:52.144346 2016] [:error] [pid 2178] [client 127.0.0.1:47354] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:16:04.392204 2016] [:error] [pid 2181] [client 127.0.0.1:47366] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:16:05.554782 2016] [:error] [pid 520] [client 127.0.0.1:47370] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:16:06.581558 2016] [:error] [pid 520] [client 127.0.0.1:47370] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:16:13.587526 2016] [:error] [pid 2303] [client 127.0.0.1:47372] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:16:13.588815 2016] [:error] [pid 2303] [client 127.0.0.1:47372] PHP Notice:  Undefined property: PDOException::$getMessage in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 7
+[Sun Oct 09 22:16:40.161834 2016] [:error] [pid 2179] [client 127.0.0.1:47384] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:16:40.162401 2016] [:error] [pid 2179] [client 127.0.0.1:47384] PHP Notice:  Undefined property: PDOException::$getMessage in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 7
+[Sun Oct 09 22:16:41.241830 2016] [:error] [pid 2179] [client 127.0.0.1:47384] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:16:41.242557 2016] [:error] [pid 2179] [client 127.0.0.1:47384] PHP Notice:  Undefined property: PDOException::$getMessage in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 7
+[Sun Oct 09 22:17:11.268962 2016] [:error] [pid 2303] [client 127.0.0.1:47396] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:19:27.101633 2016] [:error] [pid 2180] [client 127.0.0.1:47408] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:19:50.833790 2016] [:error] [pid 2303] [client 127.0.0.1:47420] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:40:43.759398 2016] [:error] [pid 523] [client 127.0.0.1:47446] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:40:43.759709 2016] [:error] [pid 523] [client 127.0.0.1:47446] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 8
+[Sun Oct 09 22:41:09.952796 2016] [:error] [pid 2181] [client 127.0.0.1:47458] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:41:09.953218 2016] [:error] [pid 2181] [client 127.0.0.1:47458] PHP Notice:  Use of undefined constant localhost - assumed 'localhost' in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 2
+[Sun Oct 09 22:41:09.953255 2016] [:error] [pid 2181] [client 127.0.0.1:47458] PHP Notice:  Use of undefined constant bingtek - assumed 'bingtek' in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 3
+[Sun Oct 09 22:41:09.963622 2016] [:error] [pid 2181] [client 127.0.0.1:47458] PHP Notice:  Object of class PDO could not be converted to int in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 10
+[Sun Oct 09 22:41:43.885358 2016] [:error] [pid 520] [client 127.0.0.1:47470] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:41:43.891648 2016] [:error] [pid 520] [client 127.0.0.1:47470] PHP Notice:  Object of class PDO could not be converted to int in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 10
+[Sun Oct 09 22:42:18.486723 2016] [:error] [pid 2125] [client 127.0.0.1:47482] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:43:22.259854 2016] [:error] [pid 519] [client 127.0.0.1:47494] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:43:52.783979 2016] [:error] [pid 2125] [client 127.0.0.1:47506] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 22:44:24.708516 2016] [:error] [pid 2125] [client 127.0.0.1:47526] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:04:23.611065 2016] [:error] [pid 2947] [client 127.0.0.1:47614] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:04:23.611174 2016] [:error] [pid 2947] [client 127.0.0.1:47614] PHP Parse error:  syntax error, unexpected 'try' (T_TRY) in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 8
+[Sun Oct 09 23:04:41.567152 2016] [:error] [pid 523] [client 127.0.0.1:47626] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:05:34.910955 2016] [:error] [pid 2782] [client 127.0.0.1:47652] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:06:25.486467 2016] [:error] [pid 3397] [client 127.0.0.1:47678] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:07:30.256560 2016] [:error] [pid 3397] [client 127.0.0.1:47704] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:08:17.084287 2016] [:error] [pid 2782] [client 127.0.0.1:47752] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:09:27.311821 2016] [:error] [pid 3505] [client 127.0.0.1:47784] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:14:05.374123 2016] [:error] [pid 3518] [client 127.0.0.1:47806] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:14:30.290866 2016] [:error] [pid 3464] [client 127.0.0.1:47818] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:14:32.503155 2016] [:error] [pid 520] [client 127.0.0.1:47820] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:14:53.123533 2016] [:error] [pid 2180] [client 127.0.0.1:47830] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:15:56.201780 2016] [:error] [pid 3518] [client 127.0.0.1:47842] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:16:30.273895 2016] [:error] [pid 3517] [client 127.0.0.1:47854] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:17:08.563515 2016] [:error] [pid 3464] [client 127.0.0.1:47880] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:17:28.689263 2016] [:error] [pid 3516] [client 127.0.0.1:47892] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:18:29.324763 2016] [:error] [pid 3505] [client 127.0.0.1:47904] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:18:52.359339 2016] [:error] [pid 2782] [client 127.0.0.1:47916] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:19:09.560335 2016] [:error] [pid 3696] [client 127.0.0.1:47928] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:19:22.925965 2016] [:error] [pid 3518] [client 127.0.0.1:47940] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:21:59.227031 2016] [:error] [pid 3516] [client 127.0.0.1:47952] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:22:00.261349 2016] [:error] [pid 3464] [client 127.0.0.1:47954] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:24:34.205044 2016] [:error] [pid 3696] [client 127.0.0.1:47964] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:24:59.041850 2016] [:error] [pid 3505] [client 127.0.0.1:47976] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:24:59.896001 2016] [:error] [pid 3518] [client 127.0.0.1:47982] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:25:00.138123 2016] [:error] [pid 2782] [client 127.0.0.1:47978] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:25:00.319193 2016] [:error] [pid 2782] [client 127.0.0.1:47978] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:26:59.588142 2016] [:error] [pid 3516] [client 127.0.0.1:47988] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:27:14.332310 2016] [:error] [pid 3518] [client 127.0.0.1:48000] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:31:01.608758 2016] [:error] [pid 3374] [client 127.0.0.1:48012] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:31:43.440779 2016] [:error] [pid 3696] [client 127.0.0.1:48024] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:31:44.105748 2016] [:error] [pid 3464] [client 127.0.0.1:48030] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:31:44.315739 2016] [:error] [pid 3696] [client 127.0.0.1:48024] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:31:44.500137 2016] [:error] [pid 3696] [client 127.0.0.1:48024] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:33:14.911051 2016] [:error] [pid 3505] [client 127.0.0.1:48036] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:33:15.751814 2016] [:error] [pid 3505] [client 127.0.0.1:48036] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:33:57.559097 2016] [:error] [pid 3517] [client 127.0.0.1:48048] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:33:58.068072 2016] [:error] [pid 3374] [client 127.0.0.1:48052] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:36:34.635407 2016] [:error] [pid 3463] [client 127.0.0.1:48074] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:37:28.857110 2016] [:error] [pid 3505] [client 127.0.0.1:48104] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:40:48.813492 2016] [:error] [pid 2180] [client 127.0.0.1:48134] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:42:35.932253 2016] [:error] [pid 3696] [client 127.0.0.1:48164] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:44:39.171096 2016] [:error] [pid 3516] [client 127.0.0.1:48194] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:44:39.171366 2016] [:error] [pid 3516] [client 127.0.0.1:48194] PHP Parse error:  syntax error, unexpected '=' in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 10
+[Sun Oct 09 23:44:58.353268 2016] [:error] [pid 4202] [client 127.0.0.1:48206] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:46:33.889937 2016] [:error] [pid 4200] [client 127.0.0.1:48238] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:46:33.890527 2016] [:error] [pid 4200] [client 127.0.0.1:48238] PHP Warning:  PDO::exec() expects exactly 1 parameter, 2 given in /home/arin/soft-dev/http/vhosts/bingtek/model/database.php on line 15
+[Sun Oct 09 23:47:02.308647 2016] [:error] [pid 4243] [client 127.0.0.1:48250] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:47:18.008003 2016] [:error] [pid 3517] [client 127.0.0.1:48262] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:54:23.533372 2016] [:error] [pid 3517] [client 127.0.0.1:48292] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:54:46.194605 2016] [:error] [pid 3516] [client 127.0.0.1:48330] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:55:29.155465 2016] [:error] [pid 4326] [client 127.0.0.1:48360] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:56:13.192685 2016] [:error] [pid 4244] [client 127.0.0.1:48390] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:56:35.087248 2016] [:error] [pid 4490] [client 127.0.0.1:48416] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:56:36.172738 2016] [:error] [pid 4490] [client 127.0.0.1:48416] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 7
+[Sun Oct 09 23:57:35.460054 2016] [:error] [pid 4463] [client 127.0.0.1:48428] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 8
+[Sun Oct 09 23:57:35.460213 2016] [:error] [pid 4463] [client 127.0.0.1:48428] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 48
