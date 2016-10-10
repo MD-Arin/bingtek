@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="res/css/bootstrap.css" media="screen" title="no title">
+    <link rel="stylesheet" href="res/css/custom.css" media="screen" title="no title">
+    <link rel="stylesheet" href="res/css/dashboard.css" media="screen" title="no title">
+    <link rel="stylesheet" href="res/fonts/*" media="screen" title="no title">
+  </head>
+  <body>
+    <?php require('../views/nav.php'); ?>
     <div class="container-fluid">
       <div class="row">
         <div class="cols-xs-2 col-sm-2 col-md-2 col-lg-2 sidebar">
@@ -60,8 +72,12 @@
                 require('../views/dash-views/fourth-ps-page-edit.php');
                 break;
 
-              case 'bcolor':
+              case 'bcolors':
                 echo "<h1 class='text-center'> comming soon .. </h1>";
+                break;
+
+              case 'contacts':
+                require('../views/dash-views/contacts-page-edit.php');
                 break;
 
               default:
@@ -72,3 +88,9 @@
         </div>
       </div>
     </div>
+    <?php require('../views/footer.php'); ?>
+  </body>
+  <script type="text/javascript" src="res/js/jquery.min.js"></script>
+  <script type="text/javascript" src="res/js/bootstrap.js"></script>
+  <script type="text/javascript" src="res/js/holder.js"></script>
+</html>

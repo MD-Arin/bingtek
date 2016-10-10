@@ -31,13 +31,37 @@
       CREATE TABLE IF NOT EXISTS $db.$second_ps_table
       CREATE TABLE IF NOT EXISTS $db.$third_ps_table
       CREATE TABLE IF NOT EXISTS $db.$fourth_ps_table
-      CREATE TABLE IF NOT EXISTS $db.$login_table");
+      CREATE TABLE IF NOT EXISTS $db.$login_table
+      ");
     }
     catch (PDOException $e)
     {
       echo ($e->getMessage());
       die();
     }
+
+    //insert default login credentials
+    try
+    {
+      $login_check = $handler->query("SELECT * FROM bingtek.login_credentials");
+      $query = $login_check->fetch();
+
+      if (empty($query))
+      {
+        $login_default = $handler->prepare("INSERT INTO bingtek.login_credentials(username,password) VALUES('admin', 'admin')");
+        $login_default->execute();
+      }
+      //Debugging code. Comment out on production
+      else
+      {
+        echo "Could not insert into login_credentials";
+      }
+    }
+    catch (Exception $e)
+    {
+      echo ($e->getMessage());
+    }
+
 
   function insert_data()
   {
@@ -59,6 +83,23 @@
 
       echo $row["$return_column"];
 
+  }
+
+  function verify_login($username, $password)
+  {
+    global $handler;
+
+      $query = $handler->query("SELECT * FROM `bingtek`.`login_credentials` WHERE username = \"$username\" AND password = \"$password\"");
+      $row = $query->fetch(PDO::FETCH_ASSOC);
+
+      if($row['username'] === $username && $row['password'] === $password)
+      {
+        return header("location: dashboard.php");
+      }
+      else
+      {
+        return header("location: index.php?q=no_login");
+      }
   }
 
 

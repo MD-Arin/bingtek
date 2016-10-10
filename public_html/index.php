@@ -31,6 +31,9 @@
           case 'contacts':
             echo 'Contact Us';
             break;
+          case 'dashboard':
+            echo 'Dashboard';
+            break;
           default:
             echo 'Home';
             break;
@@ -70,6 +73,12 @@
             break;
           case 'contacts':
             require('../views/contacts.php');
+            break;
+          case 'dashboard':
+            require('dashboard.php');
+            break;
+          case 'no_login':
+            require('../views/no_login.php');
             break;
           default:
             require('../views/home.php');
