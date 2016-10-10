@@ -16,6 +16,6 @@
     return header("location: ../index.php?q=contacts");
   }
   else {
-    echo "doesnt work";
+    return header("location: ../index.php?q=no_contact");
   }
  ?>

@@ -80,6 +80,9 @@
           case 'no_login':
             require('../views/no_login.php');
             break;
+          case 'no_contact':
+            require('../views/no_contact.php');
+            break;
           default:
             require('../views/home.php');
             break;
