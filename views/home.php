@@ -1,9 +1,10 @@
+<?php #require('../model/database.php');?>
 
 <div class="cover-image" style="background: url('res/images/placeholder-0.jpg'); height: 100%">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 text-center vertical-center">
-        <h1 class="text-inverse"><b>Text Heading</b></h1>
+        <h1 class="text-inverse"><b><?php retrieve_data('home_content','1h1','body_content');?></b></h1>
         <h3 class="text-inverse"><b>Subheading for the above heading</b></h3>
         <br>
         <a href="#" class="btn btn-info">Learn More</a>
