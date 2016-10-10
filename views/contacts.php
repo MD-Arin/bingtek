@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 vertical-line-right">
-    <form class="" action="" method="post">
+    <form action="controllers/mail-controller.php" method="post">
       <div class="row margin-tb">
         <div class="input-group form-inline">
           <span class="input-group-addon" id="sizing-addon3">*</span>
@@ -25,7 +25,7 @@
         <textarea class="form-control" name="message" rows="12" style="width:100%;"></textarea>
       </div>
       <div class="row text-center" style="margin-bottom: 30px;">
-        <input class="btn btn-primary btn-lg" type="submit" name="name" value="Send Mail">
+        <input class="btn btn-primary btn-lg" type="submit" name="send_mail" value="Send Mail">
       </div>
     </form>
   </div>

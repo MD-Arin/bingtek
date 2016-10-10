@@ -94,11 +94,11 @@
 
       if($row['username'] === $username && $row['password'] === $password)
       {
-        return header("location: dashboard.php");
+        return header("location: ../dashboard.php");
       }
       else
       {
-        return header("location: index.php?q=no_login");
+        return header("location: ../index.php?q=no_login");
       }
   }
 
