@@ -8,14 +8,15 @@
     $sender_email = $_POST['email-address'];
     $email = "graffymint@gmail.com";
 
-    $name = $first_name . " " . $last_name;
+    $name = $last_name . " " . $last_name ;
     $message = $name . "<br>" . $sender_email . "<br>" . $msg;
 
     mail($email, $subject, $message);
 
     return header("location: ../index.php?q=contacts");
   }
-  else {
+  else
+  {
     return header("location: ../index.php?q=no_contact");
   }
  ?>
