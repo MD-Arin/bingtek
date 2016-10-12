@@ -63,10 +63,20 @@
     }
 
 
-  function insert_data()
+  function insert_content($section, $body_content)
   {
     global $handler;
-    $handler->exec("
+    $handler->exec
+    ("
+
+    ");
+  }
+
+  function insert_image($section, $image_url)
+  {
+    global $handler;
+    $handler->exec
+    ("
 
     ");
   }
@@ -101,6 +111,7 @@
         return header("location: ../index.php?q=no_login");
       }
   }
+
 
 
 
