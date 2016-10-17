@@ -63,21 +63,33 @@
     }
 
 
-  function insert_content($section, $body_content)
+  function insert_content($table, $section, $body_content)
   {
-    global $handler;
-    $handler->exec
-    ("
-
-    ");
+    global $db, $handler;
+    try
+    {
+      $content = $handler->prepare("INSERT INTO `$db`.`$table`(section, body_content) VALUES(?,?)");
+      $content->execute
+      (
+        array
+        (
+          $section,
+          $body_content
+        )
+      );
+    }
+    catch (Exception $e)
+    {
+      $e->getMessage();
+    }
   }
 
-  function insert_image($section, $image_url)
+  function insert_image($table, $section, $image_url)
   {
-    global $handler;
+    global $db, $handler;
     $handler->exec
     ("
-
+      INSERT INTO `$db`.`$table`(section, image_url) VALUES($section, $image_url);
     ");
   }
 
