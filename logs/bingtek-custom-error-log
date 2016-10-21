@@ -9514,3 +9514,9 @@
 127.0.0.1 - - [21/Oct/2016:14:12:52 +0300] "GET /res/css/dashboard.css HTTP/1.1" 304 -
 127.0.0.1 - - [21/Oct/2016:14:12:52 +0300] "GET /res/fonts/* HTTP/1.1" 404 1205
 127.0.0.1 - - [21/Oct/2016:14:12:52 +0300] "GET /res/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [21/Oct/2016:19:03:30 +0300] "GET / HTTP/1.1" 200 10288
+127.0.0.1 - - [21/Oct/2016:19:03:33 +0300] "GET /res/fonts/* HTTP/1.1" 404 1161
+127.0.0.1 - - [21/Oct/2016:19:03:37 +0300] "GET /res/js/holder.js HTTP/1.1" 404 1161
+127.0.0.1 - - [21/Oct/2016:19:03:38 +0300] "GET /index.php?q=firstrun HTTP/1.1" 200 2470
+127.0.0.1 - - [21/Oct/2016:19:03:38 +0300] "GET /res/fonts/* HTTP/1.1" 404 1205
+127.0.0.1 - - [21/Oct/2016:19:03:38 +0300] "GET /favicon.ico HTTP/1.1" 404 1205
