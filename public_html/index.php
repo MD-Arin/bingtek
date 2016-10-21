@@ -83,6 +83,8 @@
           case 'no_contact':
             require('../views/no_contact.php');
             break;
+          case 'firstrun':
+            require('../model/first_run.php');
           default:
             require('../views/home.php');
             break;
