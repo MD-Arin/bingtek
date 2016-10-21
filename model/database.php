@@ -87,10 +87,25 @@
   function insert_image($table, $section, $image_url)
   {
     global $db, $handler;
-    $handler->exec
-    ("
-      INSERT INTO `$db`.`$table`(section, image_url) VALUES($section, $image_url);
-    ");
+    try
+    {
+      $image = $handler->prepare
+      ("
+        INSERT INTO `$db`.`$table`(section, image_url) VALUES(?, ?);
+      ");
+      $image->execute
+      (
+        array
+        (
+          $section,
+          $image_url
+        )
+      );
+    }
+    catch (Exception $e)
+    {
+    }
+
   }
 
   function retrieve_data($table, $section, $return_column)
