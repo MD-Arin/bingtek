@@ -1,9 +1,9 @@
 <div class="container-fluid">
   <div class="row">
     <div class="container">
-      <hr class="underline">
+      <hr>
       <h2 class="list-group-item-heading text-center">Heading</h2>
-      <hr class="underline">
+      <hr>
       <div class="jumbotron">
         <p class="list-group-item-text text-center">
           Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus. Commodo ullamcorper pede eu etiam consequat. Pede arcu neque mauris, sed aenean donec tempor conubia magnis amet. Posuere nunc magna enim egestas, nec nisl, libero at rutrum egestas ipsum amet, risus leo iaculis commodo. Wisi risus, posuere suspendisse tellus. Sodales diam in cursus fringilla donec, justo rutrum congue rutrum vitae lectus, consectetuer tristique, praesent est donec augue, eleifend lorem cursus sem sodales netus.
@@ -60,7 +60,9 @@
 
   <div class="row">
     <div class="jumbotron">
+      <hr class="underline">
       <h3 class="text-center">Heading</h3>
+      <hr class="underline">
       <p class="text-center">
         Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus.
       </p>

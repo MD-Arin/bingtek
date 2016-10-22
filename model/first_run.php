@@ -1,8 +1,23 @@
 <?php
 
   //nav
+    //Section 1
+    insert_content('nav_content', '1-h4-company', 'Bingtek');
+    insert_content('nav_content', '1-h4-telephone-1', '+254000000000');
+    insert_content('nav_content', '1-h4-telephone-2', '+254000000000');
+    insert_content('nav_content', '1-h4-email', 'info@bingtek.co.ke');
+
+    //Section 2
+    insert_content('nav_content', '2-ul-li-fps', 'First Product or Service');
+    insert_content('nav_content', '2-ul-li-sps', 'Second Product or Service');
+    insert_content('nav_content', '2-ul-li-tps', 'Third Product or Service');
+    insert_content('nav_content', '2-ul-li-frthps', 'Fourth Product or Service');
 
   //Footer
+    //Section 1
+    insert_content('footer_content', '1-ul-li-street', 'Nkurumah Road');
+    insert_content('footer_content', '1-ul-li-building', 'Kaderbhoy Building');
+    insert_content('footer_content', '1-ul-li-floor', 'First Floor');
 
   //Home Page
     //Section 1
@@ -202,9 +217,84 @@
     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
 
   //Second Product or Service
+    //Section 1
+    insert_content('second-ps_content', '1-h1-jumbotron-1', 'Product/Service Heading');
+    insert_content('second-ps_content', '1-h3-jumbotron-1', 'Product/Service Sub-Heading');
+    insert_content('second-ps_content', '1-p-jumbotron-1', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et. Nam imperdiet enim sed, turpis ipsum nonummy, nunc ante a id tempor eget. Wisi nulla quam quis erat, in erat et risus praesent neque, aliquet mauris, convallis cupidatat nam bibendum commodo nunc, urna vestibulum sed sapien aliquam amet.');
+
+    //Section 2
+    insert_image('second-ps_content', '2-img-1', 'res/images/placeholder-0.jpg');
+    insert_content('second-ps_content', '2-p-jumbotron-1', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et. Nam imperdiet enim sed, turpis ipsum nonummy, nunc ante a id tempor eget. Wisi nulla quam quis erat, in erat et risus praesent neque, aliquet mauris, convallis cupidatat nam bibendum commodo nunc, urna vestibulum sed sapien aliquam amet.');
+    insert_content('second-ps_content', '2-p-blockquote-1', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et. Nam imperdiet enim sed, turpis ipsum nonummy, nunc ante a id tempor eget. Wisi nulla quam quis erat, in erat et risus praesent neque, aliquet mauris, convallis cupidatat nam bibendum commodo nunc, urna vestibulum sed sapien aliquam amet.');
+
+
+    //Section 3
+    insert_content('second-ps_content', '3-h3-1', 'Heading');
+    insert_content('second-ps_content', '3-p-1', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et. Nam imperdiet enim sed, turpis ipsum nonummy, nunc ante a id tempor eget. Wisi nulla quam quis erat, in erat et risus praesent neque, aliquet mauris, convallis cupidatat nam bibendum commodo nunc, urna vestibulum sed sapien aliquam amet.');
+    //Section 3 Part 2
+    insert_content('second-ps_content', '3-h3-2', 'Heading');
+    insert_content('second-ps_content', '3-p-2', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et. Nam imperdiet enim sed, turpis ipsum nonummy, nunc ante a id tempor eget. Wisi nulla quam quis erat, in erat et risus praesent neque, aliquet mauris, convallis cupidatat nam bibendum commodo nunc, urna vestibulum sed sapien aliquam amet.');
+
 
   //Third Product or Service
+    //Section 1
+    insert_content('third-ps_content', '1-h3-1', 'Heading');
+    insert_content('third-ps_content', '1-p-1', 'Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus.');
+
+    //Section 2
+    insert_content('third-ps_content', '2-h2-1', 'Heading');
+    insert_content('third-ps_content', '2-h3-1', 'Product or Service');
+    insert_content('third-ps_content', '2-p-1', 'Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus.');
+    insert_image('third-ps_content', '2-img-1', 'res/images/placeholder-0.jpg');
+    //Section 2 Part 2
+    insert_image('third-ps_content', '2-img-2', 'res/images/placeholder-1.jpg');
+    insert_content('third-ps_content', '2-h3-2', 'Product or Service');
+    insert_content('third-ps_content', '2-p-2', 'Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus.');
+
+    //Section 3
+    insert_content('third-ps_content', '3-h2-1', 'Heading');
+    insert_image('third-ps_content', '3-img-1', 'res/images/placeholder-0.jpg');
+    insert_content('third-ps_content', '3-h3-1', 'Product or Service');
+    insert_content('third-ps_content', '3-p-1', 'Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus.');
+    //Section 3 Part 2
+    insert_content('third-ps_content', '3-h3-2', 'Product or Service');
+    insert_content('third-ps_content', '3-p-2', 'Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus.');
+    insert_image('third-ps_content', '3-img-2', 'res/images/placeholder-1.jpg');
+
+    //Section 4
+    insert_content('third-ps_content', '4-h3-1', 'Heading');
+    insert_content('third-ps_content', '4-p-1', 'Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus.');
 
   //Fouth Product or Service
+    //Section 1
+    insert_image('fourth-ps_content', '1-img-1', 'res/images/placeholder-0.jpg');
+    insert_content('fourth-ps_content', '1-p-1', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et.');
+
+    //Section 2
+    insert_image('fourth-ps_content', '2-img-2', 'res/images/placeholder-1.jpg');
+    insert_content('fourth-ps_content', '2-h4-1', 'Key Notes');
+    insert_content('fourth-ps_content', '2-li-1', 'Point 1');
+    insert_content('fourth-ps_content', '2-li-2', 'Point 2');
+    insert_content('fourth-ps_content', '2-li-3', 'Point 3');
+    insert_content('fourth-ps_content', '2-li-4', 'Point 4');
+    insert_content('fourth-ps_content', '2-li-5', 'Point 5');
+
+    //Section 3
+    insert_content('fourth-ps_content', '3-h4-1', 'Heading');
+    insert_content('fourth-ps_content', '3-p-1', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et.');
+    insert_image('fourth-ps_content', '3-img-1', 'res/images/placeholder-0.jpg');
+
+    //Section 4
+    insert_content('fourth-ps_content', '4-h4-1', 'Heading');
+    insert_content('fourth-ps_content', '4-h5-1', 'Sub Heading');
+    insert_content('fourth-ps_content', '4-p-1', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et.');
+
+    //Section 5
+    insert_image('fourth-ps_content', '5-img-1', 'res/images/placeholder-1.jpg');
+    insert_content('fourth-ps_content', '5-p-1', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc.');
+    insert_content('fourth-ps_content', '5-p-2', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc.');
+    insert_image('fourth-ps_content', '5-img-2', 'res/images/placeholder-0.jpg');
+
+
 
  ?>
