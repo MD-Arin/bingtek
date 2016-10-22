@@ -1,5 +1,4 @@
 <?php
-use MongoDB\BSON\Timestamp;
 
   //nav
 
@@ -152,8 +151,55 @@ use MongoDB\BSON\Timestamp;
     insert_content('about_content', '5-p-3', 'Developer');
 
   //Contacts
+    //Section 1
+    insert_content('contacts_content', '1-iframe', '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.788658758764!2d39.672811714272214!3d-4.063452897045186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1840131f2a02c0ad%3A0x26a250be10fd2125!2sKaderbhoy+Building%2C+Nkrumah+Rd%2C+Mombasa!5e0!3m2!1sen!2ske!4v1474294144629" width="100%" height="500px"></iframe>');
 
   //First Product or Service
+    //Section 1
+    insert_image('first-ps_content', '1-img-carousel-1', 'res/images/placeholder-0.jpg');
+    insert_content('first-ps_content', 'i-carousel-caption-1.1', 'Product/Service Heading');
+    insert_content('first-ps_content', 'i-carousel-caption-1.2', 'Product/Service Sub Heading or tag line');
+    //Section 1 Part 2
+    insert_image('first-ps_content', '1-img-carousel-2', 'res/images/placeholder-1.jpg');
+    insert_content('first-ps_content', 'i-carousel-caption-2.1', 'Product/Service Heading');
+    insert_content('first-ps_content', 'i-carousel-caption-2.2', 'Product/Service Sub Heading or tag line');
+    //Section 1 Part 3
+    insert_image('first-ps_content', '1-img-carousel-3', 'res/images/placeholder-0.jpg');
+    insert_content('first-ps_content', 'i-carousel-caption-3.1', 'Product/Service Heading');
+    insert_content('first-ps_content', 'i-carousel-caption-3.2', 'Product/Service Sub Heading or tag line');
+
+    //Section 2
+    insert_image('first-ps_content', '2-img-1', 'res/images/placeholder-1.jpg');
+    insert_content('first-ps_content', '2-h3-1', 'Product/Service Feature');
+    insert_content('first-ps_content', '2-p-1', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.');
+    //Section 2 Part 2
+    insert_image('first-ps_content', '2-img-2', 'res/images/placeholder-0.jpg');
+    insert_content('first-ps_content', '2-h3-2', 'Product Heading');
+    insert_content('first-ps_content', '2-h4-2', 'Product/Service Sub-Heading');
+    insert_content('first-ps_content', '2-p-2', 'Description
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+    Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.');
+    insert_content('first-ps_content', '2-ul-li-1', 'Product/Service Selling Point 1');
+    insert_content('first-ps_content', '2-ul-li-2', 'Product/Service Selling Point 2');
+    insert_content('first-ps_content', '2-ul-li-3', 'Product/Service Selling Point 3');
+
+    //Section 3
+    insert_image('first-ps_content', '3-img-1', 'res/images/placeholder-0.jpg');
+    insert_content('first-ps_content', '3-p-blockquote-1', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+    //Section 3 Part 2
+    insert_image('first-ps_content', '3-img-2', 'res/images/placeholder-1.jpg');
+    insert_content('first-ps_content', '3-p-blockquote-2', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+    //Section 3 Part 3
+    insert_image('first-ps_content', '3-img-3', 'res/images/placeholder-0.jpg');
+    insert_content('first-ps_content', '3-p-blockquote-3', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
 
   //Second Product or Service
 
