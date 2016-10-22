@@ -207,6 +207,7 @@
       </a>
     </div>
   </div>
+  
   <div class="text-center">
     <hr>
     <h1>Our Team</h1>
