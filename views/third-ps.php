@@ -2,11 +2,11 @@
   <div class="row">
     <div class="container">
       <hr>
-      <h2 class="list-group-item-heading text-center">Heading</h2>
+      <h2 class="list-group-item-heading text-center"><?php retrieve_data('third-ps_content', '1-h3-1', 'body_content');?></h2>
       <hr>
       <div class="jumbotron">
         <p class="list-group-item-text text-center">
-          Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus. Commodo ullamcorper pede eu etiam consequat. Pede arcu neque mauris, sed aenean donec tempor conubia magnis amet. Posuere nunc magna enim egestas, nec nisl, libero at rutrum egestas ipsum amet, risus leo iaculis commodo. Wisi risus, posuere suspendisse tellus. Sodales diam in cursus fringilla donec, justo rutrum congue rutrum vitae lectus, consectetuer tristique, praesent est donec augue, eleifend lorem cursus sem sodales netus.
+          <?php retrieve_data('third-ps_content', '1-p-1', 'body_content');?>
         </p>
       </div>
     </div>
@@ -14,57 +14,57 @@
 
   <div class="row">
     <hr class="underline">
-    <h2 class="text-center">Heading</h2>
+    <h2 class="text-center"><?php retrieve_data('third-ps_content', '2-h2-1', 'body_content');?></h2>
     <hr class="underline">
   </div>
 
   <div class="row vertical-line-left vertical-line-right">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <h3>Product or Service</h3>
+        <h3><?php retrieve_data('third-ps_content', '2-h3-1', 'body_content');?></h3>
         <p>
-          Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus.
+          <?php retrieve_data('third-ps_content', '2-p-1', 'body_content');?>
         </p>
-        <img src="res/images/placeholder-0.jpg" class="img-thumbnail" />
+        <img src="<?php retrieve_data('third-ps_content', '2-img-1', 'image_url');?>" class="img-thumbnail" />
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <img src="res/images/placeholder-1.jpg" class="img-thumbnail" />
-        <h3>Product or service</h3>
+      <img src="<?php retrieve_data('third-ps_content', '2-img-2', 'image_url');?>" class="img-thumbnail" />
+        <h3><?php retrieve_data('third-ps_content', '2-h3-2', 'body_content');?></h3>
         <p>
-          Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus.
+          <?php retrieve_data('third-ps_content', '2-p-2', 'body_content');?>
         </p>
     </div>
   </div>
 
   <div class="row">
     <hr class="underline">
-    <h3 class="text-center">Heading</h3>
+    <h3 class="text-center"><?php retrieve_data('third-ps_content', '3-h2-1', 'body_content');?></h3>
     <hr class="underline">
   </div>
 
   <div class="row vertical-line-left vertical-line-right">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <img src="res/images/placeholder-0.jpg" class="img-thumbnail" />
-        <h3>Product or Service</h3>
+        <img src="<?php retrieve_data('third-ps_content', '3-img-1', 'image_url');?>" class="img-thumbnail" />
+        <h3><?php retrieve_data('third-ps_content', '3-h3-1', 'body_content');?></h3>
         <p>
-          Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus.
+          <?php retrieve_data('third-ps_content', '3-p-1', 'body_content');?>
         </p>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <h3>Product or service</h3>
+        <h3><?php retrieve_data('third-ps_content', '3-h3-2', 'body_content');?></h3>
         <p>
-          Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus.
+          <?php retrieve_data('third-ps_content', '3-p-2', 'body_content');?>
         </p>
-        <img src="res/images/placeholder-1.jpg" class="img-thumbnail" />
+        <img src="<?php retrieve_data('third-ps_content', '3-img-2', 'body_content');?>" class="img-thumbnail" />
     </div>
   </div>
 
   <div class="row">
     <div class="jumbotron">
       <hr class="underline">
-      <h3 class="text-center">Heading</h3>
+      <h3 class="text-center"><?php retrieve_data('third-ps_content', '4-h3-1', 'body_content');?></h3>
       <hr class="underline">
       <p class="text-center">
-        Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus.
+        <?php retrieve_data('third-ps_content', '4-p-1', 'body_content');?>
       </p>
     </div>
   </div>

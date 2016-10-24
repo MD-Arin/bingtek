@@ -247,7 +247,7 @@
     insert_image('second-ps_content', '2-img-1', 'res/images/placeholder-0.jpg');
     insert_content('second-ps_content', '2-p-jumbotron-1', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et. Nam imperdiet enim sed, turpis ipsum nonummy, nunc ante a id tempor eget. Wisi nulla quam quis erat, in erat et risus praesent neque, aliquet mauris, convallis cupidatat nam bibendum commodo nunc, urna vestibulum sed sapien aliquam amet.');
     insert_content('second-ps_content', '2-p-blockquote-1', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et. Nam imperdiet enim sed, turpis ipsum nonummy, nunc ante a id tempor eget. Wisi nulla quam quis erat, in erat et risus praesent neque, aliquet mauris, convallis cupidatat nam bibendum commodo nunc, urna vestibulum sed sapien aliquam amet.');
-    insert_image('second-ps_content', '2-img-2', 'res/images/placeholder-1.jpg')
+    insert_image('second-ps_content', '2-img-2', 'res/images/placeholder-1.jpg');
 
 
     //Section 3
@@ -256,6 +256,7 @@
     //Section 3 Part 2
     insert_content('second-ps_content', '3-h3-2', 'Heading');
     insert_content('second-ps_content', '3-p-2', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et. Nam imperdiet enim sed, turpis ipsum nonummy, nunc ante a id tempor eget. Wisi nulla quam quis erat, in erat et risus praesent neque, aliquet mauris, convallis cupidatat nam bibendum commodo nunc, urna vestibulum sed sapien aliquam amet.');
+  //Retrieval done
 
 
   //Third Product or Service
@@ -286,6 +287,7 @@
     //Section 4
     insert_content('third-ps_content', '4-h3-1', 'Heading');
     insert_content('third-ps_content', '4-p-1', 'Et sit adipiscing conubia magna rutrum, aliquam facilisi, felis dolor nibh. Magna nostra velit, at hymenaeos, scelerisque in, praesent suscipit tortor dui volutpat est cum. At laoreet nunc nullam potenti, suspendisse viverra lorem molestie duis penatibus erat, elementum amet nunc, quam lobortis et amet sit, malesuada feugiat tristique mauris vestibulum malesuada lectus. Eu orci sed enim nec luctus.');
+  //Retrieval done
 
   //Fouth Product or Service
     //Section 1
@@ -316,7 +318,7 @@
     insert_content('fourth-ps_content', '5-p-1', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc.');
     insert_content('fourth-ps_content', '5-p-2', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc.');
     insert_image('fourth-ps_content', '5-img-2', 'res/images/placeholder-0.jpg');
-
+  //Retrieval done
 
 
  ?>

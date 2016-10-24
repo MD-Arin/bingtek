@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 vertical-line-right">
-    <form action="" method="post">
+    <form action="mail.php" method="post">
       <div class="row margin-tb">
         <div class="input-group form-inline">
           <span class="input-group-addon" id="sizing-addon3">*</span>
