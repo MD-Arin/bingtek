@@ -104,10 +104,12 @@
       felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
       elementum semper nisi.');
   //Retrieval done
+  //Retrieval dash done
 
   //About
     //Section1 Our Story
     insert_content('about_content', '1-h3', 'Where we started');
+    insert_image('about_content', '1-img-1', 'res/images/placeholder-0.jpg');
     insert_content('about_content', '1-h4-1', 'Birthday: 132BC');
     insert_content('about_content', '1-h4-2', 'Founder: Father Abraham');
     insert_content('about_content', '1-p', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
@@ -183,6 +185,7 @@
     insert_content('about_content', '5-h3-3', 'John Doe');
     insert_content('about_content', '5-p-3', 'Developer');
   //Retrieval done
+  //Retrieval dash done
 
   //Contacts
     //Section 1
@@ -236,6 +239,7 @@
     insert_content('first-ps_content', '3-p-blockquote-3', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
   //Retrieval done
+  //Retrieval dash done
 
   //Second Product or Service
     //Section 1

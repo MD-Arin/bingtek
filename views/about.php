@@ -7,7 +7,7 @@
     <h3 class="text-center"><?php retrieve_data('about_content', '1-h3', 'body_content');?></h3>
     <hr class="underline">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <img src="res/images/placeholder-0.jpg" class="img-thumbnail"/>
+      <img src="<?php retrieve_data('about_content', '1-img-1', 'image_url');?>" class="img-thumbnail"/>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
       <h4><?php retrieve_data('about_content', '1-h4-1', 'body_content');?></h4>

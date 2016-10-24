@@ -15,24 +15,24 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="res/images/placeholder-0.jpg" style="height: 80%;">
+            <img src="<?php retrieve_data('first-ps_content', '1-img-carousel-1', 'image_url');?>" style="height: 80%;">
             <div class="carousel-caption">
-              <h3>Product/Service Heading</h3>
-              <h5>Product Tag Line</h5>
+              <h3><?php retrieve_data('first-ps_content', '1-carousel-caption-1.1', 'body_content');?></h3>
+              <h5><?php retrieve_data('first-ps_content', '1-carousel-caption-1.2', 'body_content');?></h5>
             </div>
           </div>
           <div class="item">
-            <img src="res/images/placeholder-1.jpg" style="height: 80%;">
+            <img src="<?php retrieve_data('first-ps_content', '1-img-carousel-2', 'image_url');?>" style="height: 80%;">
             <div class="carousel-caption">
-              <h3>Product/Service Heading</h3>
-              <h5>Product/Service Tag Line</h5>
+              <h3><?php retrieve_data('first-ps_content', '1-carousel-caption-2.1', 'body_content');?></h3>
+              <h5><?php retrieve_data('first-ps_content', '1-carousel-caption-2.2', 'body_content');?></h5>
             </div>
           </div>
           <div class="item">
-            <img src="res/images/placeholder-0.jpg" style="height: 80%;">
+            <img src="<?php retrieve_data('first-ps_content', '1-img-carousel-3', 'image_url');?>" style="height: 80%;">
             <div class="carousel-caption">
-              <h3>Product/Service Heading</h3>
-              <h5>Product/Service Tag Line</h5>
+              <h3><?php retrieve_data('first-ps_content', '1-carousel-caption-3.1', 'body_content');?></h3>
+              <h5><?php retrieve_data('first-ps_content', '1-carousel-caption-3.2', 'body_content');?></h5>
             </div>
           </div>
         </div>
@@ -51,12 +51,8 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="" method="post">
         <div class="row">
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <input class="btn btn-primary form-inline" type="button" value="Upload Image">
-          </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <input class="form-control" type="number" placeholder="Image No? of 3">
-          </div>
+          <input class="btn btn-primary form-inline" type="file" value="Upload Image">
+          <input class="form-control" type="number" placeholder="Image No? of 3">
         </div>
         <div class="row">
           <input class="form-control margin-top" type="text"  placeholder="Carousel Heading">
@@ -74,17 +70,14 @@
   <div class="row">
     <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <img src="res/images/placeholder-1.jpg" class="img-thumbnail"/>
+        <img src="<?php retrieve_data('first-ps_content', '2-img-1', 'image_url');?>" class="img-thumbnail"/>
       </div>
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-        <h3>Product/Service Feature</h3>
+        <h3><?php retrieve_data('first-ps_content', '2-h3-1', 'body_content');?></h3>
         <hr>
         <ul>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+            <?php retrieve_data('first-ps_content', '2-p-1', 'body_content');?>
           </p>
         </ul>
       </div>`
@@ -92,7 +85,7 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
         <form class="" action="" method="post">
-          <input class="btn btn-primary margin-top" type="button" value="Upload Image">
+          <input class="btn btn-primary margin-top" type="file" value="Upload Image">
           <input class="form-control margin-top" type="text" placeholder="Product/Service Feature">
           <textarea class="form-control margin-top" rows="8" placeholder="Product or Service Content"></textarea>
           <input class="btn btn-primary margin-top" type="submit" value="Save">
@@ -108,19 +101,15 @@
   <div class="row">
     <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
       <div class="well-lg">
-        <img src="res/images/placeholder-0.jpg" height="500px" width="100%"/>
+        <img src="<?php retrieve_data('first-ps_content', '2-img-2', 'image_url');?>" height="500px" width="100%"/>
       </div>
       <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <h3>Product Heading</h3>
-          <h4>Product/Service Sub-Heading</h4>
+          <h3><?php retrieve_data('first-ps_content', '2-h3-2', 'body_content');?></h3>
+          <h4><?php retrieve_data('first-ps_content', '2-h4-2', 'body_content');?></h4>
           <hr>
           <p>
-            Description
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+            <?php retrieve_data('first-ps_content', '2-p-2', 'body_content');?>
           </p>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -130,9 +119,9 @@
           <br>
           <br>
           <ul class="list-group">
-            <li class="list-group-item">Product/Service Selling Point 1</li>
-            <li class="list-group-item">Product/Service Selling Point 2</li>
-            <li class="list-group-item">Product/Service Selling Point 3</li>
+            <li class="list-group-item"><?php retrieve_data('first-ps_content', '2-ul-li-1', 'body_content');?></li>
+            <li class="list-group-item"><?php retrieve_data('first-ps_content', '2-ul-li-2', 'body_content');?></li>
+            <li class="list-group-item"><?php retrieve_data('first-ps_content', '2-ul-li-3', 'body_content');?></li>
           </ul>
         </div>
       </div>
@@ -140,7 +129,7 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
         <form class="" action="" method="post">
-          <input class="btn btn-primary margin-top" type="button" value="Upload Image">
+          <input class="btn btn-primary margin-top" type="file" value="Upload Image">
           <input class="form-control margin-top" type="text" placeholder="Product Heading">
           <input class="form-control margin-top" type="text" placeholder="Product Sub-Heading">
           <textarea class="form-control margin-top" rows="8" placeholder="Product Description"></textarea>
@@ -161,31 +150,28 @@
     <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
         <div class="well">
-          <img src="res/images/placeholder-0.jpg" class="img-thumbnail" />
+          <img src="<?php retrieve_data('first-ps_content', '3-img-1', 'image_url');?>" class="img-thumbnail" />
           <p class="blockquote">
             <br>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            <?php retrieve_data('first-ps_content', '3-p-blockquote-1', 'body_content');?>
           </p>
         </div>
       </div>
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
         <div class="well">
-          <img src="res/images/placeholder-1.jpg" class="img-thumbnail" />
+          <img src="<?php retrieve_data('first-ps_content', '3-img-2', 'image_url');?>" class="img-thumbnail" />
           <p class="blockquote">
             <br>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            <?php retrieve_data('first-ps_content', '3-p-blockquote-2', 'body_content');?>
           </p>
         </div>
       </div>
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
         <div class="well">
-          <img src="res/images/placeholder-0.jpg" class="img-thumbnail" />
+          <img src="<?php retrieve_data('first-ps_content', '3-img-3', 'image_url');?>" class="img-thumbnail" />
           <p class="blockquote">
             <br>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            <?php retrieve_data('first-ps_content', '3-p-blockquote-3', 'body_content');?>
           </p>
         </div>
       </div>
@@ -194,12 +180,8 @@
       <div class="row">
         <form class="" action="" method="post">
           <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <input class="btn btn-primary form-inline margin-top" type="button" value="Upload Image">
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <input class="form-control margin-top" type="number" name="name" placeholder="Image No? of 3">
-            </div>
+            <input class="btn btn-primary form-inline margin-top" type="file" value="Upload Image">
+            <input class="form-control margin-top" type="number" name="name" placeholder="Image No? of 3">
           </div>
           <input class="form-control margin-top" type="text" Placeholder="Column 1 text">
           <input class="form-control margin-top" type="text" Placeholder="Column 2 text">
