@@ -13,10 +13,10 @@
 
     mail($email, $subject, $message);
 
-    return header("location: ../index.php?q=contacts");
+    return header("location: index.php?q=contacts");
   }
   else
   {
-    return header("location: ../index.php?q=no_contact");
+    return header("location: index.php?q=no_contact");
   }
  ?>

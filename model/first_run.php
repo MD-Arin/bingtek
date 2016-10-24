@@ -12,6 +12,7 @@
     insert_content('nav_content', '2-ul-li-sps', 'Second Product or Service');
     insert_content('nav_content', '2-ul-li-tps', 'Third Product or Service');
     insert_content('nav_content', '2-ul-li-frthps', 'Fourth Product or Service');
+  //Retrieval done
 
   //Footer
     //Section 1
@@ -21,6 +22,7 @@
 
     //Section 2
     insert_content('footer_content', '2-iframe-map', '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.788658758764!2d39.672811714272214!3d-4.063452897045186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1840131f2a02c0ad%3A0x26a250be10fd2125!2sKaderbhoy+Building%2C+Nkrumah+Rd%2C+Mombasa!5e0!3m2!1sen!2ske!4v1474294144629" width="400px" height="200px"></iframe>');
+  //Retrieval done
 
   //Home Page
     //Section 1
@@ -101,6 +103,7 @@
       enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
       felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
       elementum semper nisi.');
+  //Retrieval done
 
   //About
     //Section1 Our Story
@@ -134,26 +137,38 @@
     insert_image('about_content', '3-img-1', 'res/images/placeholder-0.jpg');
     insert_content('about_content', '3-p-blockquote-1', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+    insert_content('about_content', '3-h5-name-1', 'John Doe');
+    insert_content('about_content', '3-h5-position-1', 'Sales');
+    insert_content('about_content', '3-h5-company-1', 'Lorem Motor Company');
     //Section 3 part 2
     insert_image('about_content', '3-img-2', 'res/images/placeholder-1.jpg');
     insert_content('about_content', '3-p-blockquote-2', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+    insert_content('about_content', '3-h5-name-2', 'Jane Doe');
+    insert_content('about_content', '3-h5-position-2', 'Marketing Manager');
+    insert_content('about_content', '3-h5-company-2', 'Ipsum');
     //Section 3 Part 3
     insert_image('about_content', '3-img-3', 'res/images/placeholder-0.jpg');
     insert_content('about_content', '3-p-blockquote-3', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+    insert_content('about_content', '3-h5-name-3', 'John Doe');
+    insert_content('about_content', '3-h5-position-3', 'Procurement Manager');
+    insert_content('about_content', '3-h5-company-3', 'Dolor Warehousing');
     //Section 3 part 4
     insert_image('about_content', '3-img-4', 'res/images/placeholder-1.jpg');
     insert_content('about_content', '3-p-blockquote-4', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+    insert_content('about_content', '3-h5-name-4', 'Jane Doe');
+    insert_content('about_content', '3-h5-position-4', 'Product Assurance Manager');
+    insert_content('about_content', '3-h5-company-4', 'Sit Networks');
 
     //Section 4 Partners
     insert_image('about_content', '4-img-carousel-1', 'res/images/placeholder-0.jpg');
-    insert_image('about_content', '4-img-carousel-1', 'res/images/placeholder-1.jpg');
-    insert_image('about_content', '4-img-carousel-1', 'res/images/placeholder-0.jpg');
-    insert_image('about_content', '4-img-carousel-1', 'res/images/placeholder-1.jpg');
-    insert_image('about_content', '4-img-carousel-1', 'res/images/placeholder-0.jpg');
-    insert_image('about_content', '4-img-carousel-1', 'res/images/placeholder-1.jpg');
+    insert_image('about_content', '4-img-carousel-2', 'res/images/placeholder-1.jpg');
+    insert_image('about_content', '4-img-carousel-3', 'res/images/placeholder-0.jpg');
+    insert_image('about_content', '4-img-carousel-4', 'res/images/placeholder-1.jpg');
+    insert_image('about_content', '4-img-carousel-5', 'res/images/placeholder-0.jpg');
+    insert_image('about_content', '4-img-carousel-6', 'res/images/placeholder-1.jpg');
 
     //Section 5 Our Team
     insert_image('about_content', '5-img-team-1', 'res/images/user-placeholder.png');
@@ -164,27 +179,29 @@
     insert_content('about_content', '5-h3-2', 'Jane Doe');
     insert_content('about_content', '5-p-2', 'Developer');
     //Section 5 Part 3
-    insert_image('about_content', '5-img-team-1', 'res/images/user-placeholder.png');
-    insert_content('about_content', '5-h3-1', 'John Doe');
+    insert_image('about_content', '5-img-team-3', 'res/images/user-placeholder.png');
+    insert_content('about_content', '5-h3-3', 'John Doe');
     insert_content('about_content', '5-p-3', 'Developer');
+  //Retrieval done
 
   //Contacts
     //Section 1
     insert_content('contacts_content', '1-iframe', '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.788658758764!2d39.672811714272214!3d-4.063452897045186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1840131f2a02c0ad%3A0x26a250be10fd2125!2sKaderbhoy+Building%2C+Nkrumah+Rd%2C+Mombasa!5e0!3m2!1sen!2ske!4v1474294144629" width="100%" height="500px"></iframe>');
+  //Retrieval done
 
   //First Product or Service
     //Section 1
     insert_image('first-ps_content', '1-img-carousel-1', 'res/images/placeholder-0.jpg');
-    insert_content('first-ps_content', 'i-carousel-caption-1.1', 'Product/Service Heading');
-    insert_content('first-ps_content', 'i-carousel-caption-1.2', 'Product/Service Sub Heading or tag line');
+    insert_content('first-ps_content', '1-carousel-caption-1.1', 'Product/Service Heading');
+    insert_content('first-ps_content', '1-carousel-caption-1.2', 'Product/Service Sub Heading or tag line');
     //Section 1 Part 2
     insert_image('first-ps_content', '1-img-carousel-2', 'res/images/placeholder-1.jpg');
-    insert_content('first-ps_content', 'i-carousel-caption-2.1', 'Product/Service Heading');
-    insert_content('first-ps_content', 'i-carousel-caption-2.2', 'Product/Service Sub Heading or tag line');
+    insert_content('first-ps_content', '1-carousel-caption-2.1', 'Product/Service Heading');
+    insert_content('first-ps_content', '1-carousel-caption-2.2', 'Product/Service Sub Heading or tag line');
     //Section 1 Part 3
     insert_image('first-ps_content', '1-img-carousel-3', 'res/images/placeholder-0.jpg');
-    insert_content('first-ps_content', 'i-carousel-caption-3.1', 'Product/Service Heading');
-    insert_content('first-ps_content', 'i-carousel-caption-3.2', 'Product/Service Sub Heading or tag line');
+    insert_content('first-ps_content', '1-carousel-caption-3.1', 'Product/Service Heading');
+    insert_content('first-ps_content', '1-carousel-caption-3.2', 'Product/Service Sub Heading or tag line');
 
     //Section 2
     insert_image('first-ps_content', '2-img-1', 'res/images/placeholder-1.jpg');
@@ -218,6 +235,7 @@
     insert_image('first-ps_content', '3-img-3', 'res/images/placeholder-0.jpg');
     insert_content('first-ps_content', '3-p-blockquote-3', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+  //Retrieval done
 
   //Second Product or Service
     //Section 1
@@ -229,6 +247,7 @@
     insert_image('second-ps_content', '2-img-1', 'res/images/placeholder-0.jpg');
     insert_content('second-ps_content', '2-p-jumbotron-1', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et. Nam imperdiet enim sed, turpis ipsum nonummy, nunc ante a id tempor eget. Wisi nulla quam quis erat, in erat et risus praesent neque, aliquet mauris, convallis cupidatat nam bibendum commodo nunc, urna vestibulum sed sapien aliquam amet.');
     insert_content('second-ps_content', '2-p-blockquote-1', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et. Nam imperdiet enim sed, turpis ipsum nonummy, nunc ante a id tempor eget. Wisi nulla quam quis erat, in erat et risus praesent neque, aliquet mauris, convallis cupidatat nam bibendum commodo nunc, urna vestibulum sed sapien aliquam amet.');
+    insert_image('second-ps_content', '2-img-2', 'res/images/placeholder-1.jpg')
 
 
     //Section 3

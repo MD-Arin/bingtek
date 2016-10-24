@@ -1,6 +1,6 @@
 <div class="container-sm text-center">
   <div class="row">
-    <form action="controllers/dash-login-controller.php" method="post">
+    <form action="../controllers/dash-login-controller.php" method="post">
       <div class="row margin-tb">
         <div class="input-group input-group-lg">
           <span class="input-group-addon" id="sizing-addon1">*</span>

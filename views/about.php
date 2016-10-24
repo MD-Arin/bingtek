@@ -4,24 +4,21 @@
 <h1 class="text-center">Our Story</h1>
 <hr>
   <div class="row">
-    <h3 class="text-center">Where We Started</h3>
+    <h3 class="text-center"><?php retrieve_data('about_content', '1-h3', 'body_content');?></h3>
     <hr class="underline">
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
       <img src="res/images/placeholder-0.jpg" class="img-thumbnail"/>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <h4>Birthday: 132BC</h4>
-      <h4>Founder: Father Abraham</h4>
+      <h4><?php retrieve_data('about_content', '1-h4-1', 'body_content');?></h4>
+      <h4><?php retrieve_data('about_content', '1-h4-2', 'body_content');?></h4>
       <hr>
       <h4>The Story: </h4>
       <hr>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+        <?php retrieve_data('about_content', '1-p', 'body_content');?>
       </p>
-    </div>`
+    </div>
   </div>
 
   <hr>
@@ -41,12 +38,12 @@
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <div class="row">
-              <img src="res/images/placeholder-1.jpg">
+              <img src="<?php retrieve_data('about_content', '2-img-carousel-1', 'image_url');?>">
             </div>
           </div>
           <div class="item">
             <div class="row">
-              <img src="res/images/placeholder-0.jpg">
+              <img src="<?php retrieve_data('about_content', '2-img-carousel-2', 'image_url');?>">
             </div>
           </div>
         </div>
@@ -67,39 +64,23 @@
       <br>
 
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <h4>Year: 12BC</h4>
-      <h4>Accomplishment: Father of all nations</h4>
+      <h4><?php retrieve_data('about_content', '2-h4-1.1', 'body_content');?></h4>
+      <h4><?php retrieve_data('about_content', '2-h4-2.1', 'body_content');?></h4>
       <hr>
       <h4>The Story: </h4>
       <hr>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+        <?php retrieve_data('about_content', '2-p-1.1', 'body_content');?>
       </p>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-      <h4>Year: 12BC</h4>
-      <h4>Accomplishment: Father of all nations</h4>
+      <h4><?php retrieve_data('about_content', '2-h4-1.2', 'body_content');?></h4>
+      <h4><?php retrieve_data('about_content', '2-h4-2.2', 'body_content');?></h4>
       <hr>
       <h4>The Story: </h4>
       <hr>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-        Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+        <?php retrieve_data('about_content', '2-p-1.2', 'body_content');?>
       </p>
     </div>
   </div>
@@ -112,48 +93,44 @@
   </div>
   <div class="row">
     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-      <img src="res/images/placeholder-0.jpg" class="img-thumbnail" />
+      <img src="<?php retrieve_data('about_content', '3-img-1', 'image_url');?>" class="img-thumbnail" />
       <p class="blockquote-reverse">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        <?php retrieve_data('about_content', '3-p-blockquote-1', 'body_content');?>
       </p>
       <hr>
-      <h5 class="blockquote"><i>Name: </i></h5>
-      <h5 class="blockquote"><i>Position:</i> </h5>
-      <h5 class="blockquote"><i>Company: </i></h5>
+      <h5 class="blockquote"><i>Name: <?php retrieve_data('about_content', '3-h5-name-1', 'body_content');?></i></h5>
+      <h5 class="blockquote"><i>Position: <?php retrieve_data('about_content', '3-h5-position-1', 'body_content');?></i> </h5>
+      <h5 class="blockquote"><i>Company: <?php retrieve_data('about_content', '3-h5-company-1', 'body_content');?></i></h5>
     </div>
     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-      <img src="res/images/placeholder-1.jpg" class="img-thumbnail" />
+      <img src="<?php retrieve_data('about_content', '3-img-2', 'image_url');?>" class="img-thumbnail" />
       <p class="blockquote-reverse">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        <?php retrieve_data('about_content', '3-p-blockquote-2', 'body_content');?>
       </p>
       <hr>
-      <h5 class="blockquote"><i>Name: </i></h5>
-      <h5 class="blockquote"><i>Position:</i> </h5>
-      <h5 class="blockquote"><i>Company: </i></h5>
+      <h5 class="blockquote"><i>Name: <?php retrieve_data('about_content', '3-h5-name-2', 'body_content');?></i></h5>
+      <h5 class="blockquote"><i>Position: <?php retrieve_data('about_content', '3-h5-position-2', 'body_content');?></i> </h5>
+      <h5 class="blockquote"><i>Company: <?php retrieve_data('about_content', '3-h5-company-2', 'body_content');?></i></h5>
     </div>
     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-      <img src="res/images/placeholder-0.jpg" class="img-thumbnail" />
+      <img src="<?php retrieve_data('about_content', '3-img-3', 'image_url');?>" class="img-thumbnail" />
       <p class="blockquote-reverse">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        <?php retrieve_data('about_content', '3-p-blockquote-3', 'body_content');?>
       </p>
       <hr>
-      <h5 class="blockquote"><i>Name: </i></h5>
-      <h5 class="blockquote"><i>Position:</i> </h5>
-      <h5 class="blockquote"><i>Company: </i></h5>
+      <h5 class="blockquote"><i>Name: <?php retrieve_data('about_content', '3-h5-name-3', 'body_content');?></i></h5>
+      <h5 class="blockquote"><i>Position: <?php retrieve_data('about_content', '3-h5-position-3', 'body_content');?></i> </h5>
+      <h5 class="blockquote"><i>Company: <?php retrieve_data('about_content', '3-h5-company-3', 'body_content');?></i></h5>
     </div>
     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-      <img src="res/images/placeholder-1.jpg" class="img-thumbnail" />
+      <img src="<?php retrieve_data('about_content', '3-img-4', 'image_url');?>" class="img-thumbnail" />
       <p class="blockquote-reverse">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        <?php retrieve_data('about_content', '3-p-blockquote-4', 'body_content');?>
       </p>
       <hr>
-      <h5 class="blockquote"><i>Name: </i></h5>
-      <h5 class="blockquote"><i>Position:</i> </h5>
-      <h5 class="blockquote"><i>Company: </i></h5>
+      <h5 class="blockquote"><i>Name: <?php retrieve_data('about_content', '3-h5-name-4', 'body_content');?></i></h5>
+      <h5 class="blockquote"><i>Position: <?php retrieve_data('about_content', '3-h5-position-4', 'body_content');?></i> </h5>
+      <h5 class="blockquote"><i>Company: <?php retrieve_data('about_content', '3-h5-company-4', 'body_content');?></i></h5>
     </div>
   </div>
 
@@ -174,24 +151,24 @@
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <img src="res/images/placeholder-0.jpg" class="img-thumbnail">
+          <img src="<?php retrieve_data('about_content', '4-img-carousel-1', 'image_url');?>" class="img-thumbnail">
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <img src="res/images/placeholder-1.jpg" class="img-thumbnail">
+          <img src="<?php retrieve_data('about_content', '4-img-carousel-2', 'image_url');?>" class="img-thumbnail">
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <img src="res/images/placeholder-0.jpg" class="img-thumbnail">
+          <img src="<?php retrieve_data('about_content', '4-img-carousel-3', 'image_url');?>" class="img-thumbnail">
         </div>
       </div>
       <div class="item">
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <img src="res/images/placeholder-1.jpg" class="img-thumbnail">
+          <img src="<?php retrieve_data('about_content', '4-img-carousel-4', 'image_url');?>" class="img-thumbnail">
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <img src="res/images/placeholder-0.jpg" class="img-thumbnail">
+          <img src="<?php retrieve_data('about_content', '4-img-carousel-5', 'image_url');?>" class="img-thumbnail">
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <img src="res/images/placeholder-1.jpg" class="img-thumbnail">
+          <img src="<?php retrieve_data('about_content', '4-img-carousel-6', 'image_url');?>" class="img-thumbnail">
         </div>
       </div>
       </div>
@@ -207,7 +184,7 @@
       </a>
     </div>
   </div>
-  
+
   <div class="text-center">
     <hr>
     <h1>Our Team</h1>
@@ -215,22 +192,22 @@
   </div>
   <div class="row">
     <div class="col=xs-4 col-sm-4 col-md-4 col-lg-4">
-      <img src="res/images/user-placeholder.png"
+      <img src="<?php retrieve_data('about_content', '5-img-team-1', 'image_url');?>"
       class="center-block img-circle img-responsive">
-      <h3 class="text-center">John Doe</h3>
-      <p class="text-center">Developer</p>
+      <h3 class="text-center"><?php retrieve_data('about_content', '5-h3-1', 'body_content');?></h3>
+      <p class="text-center"><?php retrieve_data('about_content', '5-p-1', 'body_content');?></p>
     </div>
     <div class="col=xs-4 col-sm-4 col-md-4 col-lg-4">
-      <img src="res/images/user-placeholder.png"
+      <img src="<?php retrieve_data('about_content', '5-img-team-2', 'image_url');?>"
       class="center-block img-circle img-responsive">
-      <h3 class="text-center">John Doe</h3>
-      <p class="text-center">Developer</p>
+      <h3 class="text-center"><?php retrieve_data('about_content', '5-h3-2', 'body_content');?></h3>
+      <p class="text-center"><?php retrieve_data('about_content', '5-p-2', 'body_content');?></p>
     </div>
     <div class="col=xs-4 col-sm-4 col-md-4 col-lg-4">
-      <img src="res/images/user-placeholder.png"
+      <img src="<?php retrieve_data('about_content', '5-img-team-3', 'image_url');?>"
       class="center-block img-circle img-responsive">
-      <h3 class="text-center">John Doe</h3>
-      <p class="text-center">Developer</p>
+      <h3 class="text-center"><?php retrieve_data('about_content', '5-h3-3', 'body_content');?></h3>
+      <p class="text-center"><?php retrieve_data('about_content', '5-p-3', 'body_content');?></p>
     </div>
   </div>
 </div>
