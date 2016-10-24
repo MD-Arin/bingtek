@@ -7,10 +7,10 @@
   <div class="row">
     <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
       <div class="well-lg">
-        <img src="res/images/placeholder-0.jpg"  width="100%" height="500px"/>
+        <img src="<?php retrieve_data('fourth-ps_content', '1-img-1', 'image_url');?>"  width="100%" height="500px"/>
         <div class="jumbotron text-center">
           <p>
-            Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et.
+            <?php retrieve_data('fourth-ps_content', '1-p-1', 'body_content');?>
           </p>
         </div>
       </div>
@@ -36,29 +36,29 @@
     <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
       <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img src="res/images/placeholder-1.jpg" class="img-thumbnail" />
+          <img src="<?php retrieve_data('fourth-ps_content', '2-img-2', 'image_url');?>" class="img-thumbnail" />
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <h4>Pointer</h4>
+          <h4><?php retrieve_data('third-ps_content', '2-h4-1', 'image_url');?></h4>
           <ul>
-            <li>Point 1</li>
-            <li>Point 2</li>
-            <li>Point 3</li>
-            <li>Point 4</li>
-            <li>Point 5</li>
+            <li><?php retrieve_data('fourth-ps_content', '2-li-1', 'body_content');?></li>
+            <li><?php retrieve_data('fourth-ps_content', '2-li-2', 'body_content');?></li>
+            <li><?php retrieve_data('fourth-ps_content', '2-li-3', 'body_content');?></li>
+            <li><?php retrieve_data('fourth-ps_content', '2-li-4', 'body_content');?></li>
+            <li><?php retrieve_data('fourth-ps_content', '2-li-5', 'body_content');?></li>
           </ul>
         </div>
       </div>
       <hr>
       <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <h4>Heading</h4>
+          <h4><?php retrieve_data('fourth-ps_content', '3-h4-1', 'body_content');?></h4>
           <p>
-            Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et.
+            <?php retrieve_data('fourth-ps_content', '3-p-1', 'body_content');?>
           </p>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <img src="res/images/placeholder-0.jpg" class="img-thumbnail" />
+          <img src="<?php retrieve_data('fourth-ps_content', '3-img-1', 'image_url');?>" class="img-thumbnail" />
         </div>
       </div>
     </div>
@@ -66,12 +66,8 @@
       <div class="row">
         <form class="" action="" method="post">
           <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <input class="btn btn-primary margin-top form-inline" type="button" value="Upload Image">
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <input class="form-control margin-top" type="number" placeholder="Image No? of 2">
-            </div>
+            <input class="btn btn-primary margin-top form-inline" type="file" value="Upload Image">
+            <input class="form-control margin-top" type="number" placeholder="Image No? of 2">
           </div>
           <div class="row">
             <input class="form-control margin-top" type="text" placeholder="pointer 1">
@@ -99,11 +95,11 @@
     <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
       <div class="row">
           <div class="jumbotron">
-            <h4 class="text-center">Heading</h4>
-            <h5 class="text-center">Sub Heading</h5>
+            <h4 class="text-center"><?php retrieve_data('fourth-ps_content', '4-h4-1', 'body_content');?></h4>
+            <h5 class="text-center"><?php retrieve_data('fourth-ps_content', '4-h5-1', 'body_content');?></h5>
             <hr>
             <p class="text-center">
-              Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc. Faucibus donec tortor, massa ac, sagittis fermentum placerat at quis, in rhoncus amet ultrices elit velit morbi, nullam vel. Massa pellentesque curae augue porta eget. Turpis fusce ligula cursus semper eget, porttitor pede pretium torquent eu lacus. Donec non proin mollis malesuada morbi consectetuer, sapien et.
+              <?php retrieve_data('fourth-ps_content', '4-p-1', 'body_content');?>
             </p>
           </div>
       </div>
@@ -129,30 +125,26 @@
   <div class="row">
     <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-        <img src="res/images/placeholder-1.jpg" alt="placeholder-0.jpg" class="img-thumbnail" />
+        <img src="<?php retrieve_data('fourth-ps_content', '5-img-1', 'image_url');?>" alt="placeholder-0.jpg" class="img-thumbnail" />
       </div>
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
         <p>
-          Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc.
+          <?php retrieve_data('fourth-ps_content', '5-p-1', 'body_content');?>
         </p>
         <hr>
         <p>
-          Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc.
+          <?php retrieve_data('fourth-ps_content', '5-p-2', 'body_content');?>
         </p>
       </div>
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-        <img src="res/images/placeholder-0.jpg" alt="placeholder-1.jpg" class="img-thumbnail" />
+        <img src="<?php retrieve_data('fourth-ps_content', '5-img-2', 'image_url');?>" alt="placeholder-1.jpg" class="img-thumbnail" />
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
         <form class="" action="" method="post">
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <input class="btn btn-primary margin-top form-inline" type="button" value="Upload Image">
-          </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <input class="form-control margin-top" type="number" placeholder="Image No? of 2">
-          </div>
+          <input class="btn btn-primary margin-top form-inline" type="file" value="Upload Image">
+          <input class="form-control margin-top" type="number" placeholder="Image No? of 2">
           <br>
           <br>
           <br>
