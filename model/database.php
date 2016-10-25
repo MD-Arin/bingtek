@@ -139,6 +139,36 @@
       }
   }
 
+  function update_content($table, $section, $new_content)
+  {
+      global $db,$handler;
+
+      $updateContent = $handler->prepare("UPDATE `$db`.`$table` SET body_content = ? WHERE section = ?");
+      $updateContent->execute
+      (
+        array
+        (
+          $new_content,
+          $section
+        )
+      );
+  }
+
+  function update_image($table, $section, $new_image)
+  {
+    global $db, $handler;
+
+    $updateImage = $handler->prepare("UPDATE `$db`.`$table` SET image_url = ? WHERE section = ?");
+    $updateImage->execute
+    (
+      array
+      (
+        $new_image,
+        $section
+      )
+    );
+  }
+
 
 
 
