@@ -20,19 +20,20 @@
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <form class="" action="" method="post">
-        <input class="btn btn-lg btn-primary" type="file" value="Upload Image">
-        <input class="form-control margin-top" type="text" placeholder="Image Url: res/images/placeholder-0.jpg">
-        <input class="form-control margin-top" type="text" placeholder="Image Heading">
-        <input class="form-control margin-top" type="text" placeholder="Image Sub-Heading">
-        <input class="form-control margin-top" type="number" placeholder="Learn More leads to which product page? Answer From Number 1-4.">
-        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save">
+      <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
+        <input class="btn btn-lg btn-primary" name="img_1" type="file" value="Upload Image">
+        <input class="btn btn-primary" name="saveImg_1" type="submit" value="Save Image">
+        <input class="form-control margin-top" name="imageHeading" type="text" placeholder="Image Heading">
+        <input class="btn btn-primary" type="submit" name="saveImageHeading" value="Save">
+        <input class="form-control margin-top" type="text" name="imageSubheading" placeholder="Image Sub-Heading">
+        <input class="btn btn-primary" type="submit" name="saveImageSubheading" value="Save">
+        <input class="form-control margin-top" type="number" name="pageLink" placeholder="Learn More leads to which product page? Answer From Number 1-4.">
+        <input class="btn btn-primary" type="submit" name="savePageLink" value="Save">
+        <br>
+        <input class="btn btn-lg btn-primary margin-top" name="1_saveAll" type="submit" value="Save All">
       </form>
     </div>
     <hr>
-    <div class="">
-
-    </div>
   </div>
 
   <div class="row">
