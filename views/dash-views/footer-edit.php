@@ -5,11 +5,15 @@
     <hr>
   </div>
   <div class="row">
-    <form class="" action="" method="post">
-      <input class="form-control margin-top" type="text" placeholder="Street or Road">
-      <input class="form-control margin-top" type="text" placeholder="Building">
-      <input class="form-control margin-top" type="text" placeholder="Building Floor">
-      <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save">
+    <form class="" action="edit-footer.php" method="post">
+      <input class="form-control margin-top" type="text" name="street" placeholder="Street or Road">
+      <input class="btn btn-primary" type="submit" name="saveStreet" value="Save">
+      <input class="form-control margin-top" type="text" name="building" placeholder="Building">
+      <input class="btn btn-primary" type="submit" name="saveBuilding" value="Save">
+      <input class="form-control margin-top" type="text" name="floor" placeholder="Building Floor">
+      <input class="btn btn-primary" type="submit" name="saveFloor" value="Save">
+      <br>
+      <input class="btn btn-lg btn-primary margin-top" name="saveLocation" type="submit" value="Save All">
     </form>
   </div>
   <div class="row">
@@ -30,9 +34,9 @@
           <li>Copy and paste the highlighted content to the text area below.</li>
         </ol>
       </p>
-      <form class="" action="" method="post">
-        <textarea class="form-control margin-top" rows="8" width=100%></textarea>
-        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save">
+      <form class="" action="edit-footer.php" method="post">
+        <textarea class="form-control margin-top" name="iframe" rows="8" width=100%></textarea>
+        <input class="btn btn-lg btn-primary margin-top" name="saveMap" type="submit" value="Save">
       </form>
   </div>
 </div>
