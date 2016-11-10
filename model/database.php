@@ -1,8 +1,8 @@
 <?php
   $host = 'localhost';
   $db = 'bingtek';
-  $user = 'root';
-  $pass = '';
+  $user = 'arin';
+  $pass = 'arin';
   $handler = new PDO("mysql:host=$host;","$user","$pass");
 
   $home_table = "`home_content`(`id` INT NOT NULL AUTO_INCREMENT, `section` VARCHAR( 45 ) NOT NULL, `body_content` TEXT NULL, `image_url` TEXT NULL, `updated_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY (`id`));";

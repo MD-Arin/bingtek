@@ -707,3 +707,7 @@
 [Tue Nov 01 13:51:04.000268 2016] [:error] [pid 673] [client 127.0.0.1:39044] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/dashboard.php on line 42, referer: http://www.bingtek.local/index.php?q=login
 [Tue Nov 01 13:57:03.781513 2016] [:error] [pid 1211] [client 127.0.0.1:39066] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 8
 [Tue Nov 01 13:57:03.782467 2016] [:error] [pid 1211] [client 127.0.0.1:39066] PHP Notice:  Undefined index: q in /home/arin/soft-dev/http/vhosts/bingtek/public_html/index.php on line 51
+[Thu Nov 10 18:58:46.617345 2016] [:error] [pid 9667] [client 127.0.0.1:60644] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 10 18:58:46.619155 2016] [:error] [pid 9667] [client 127.0.0.1:60644] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 51
+[Thu Nov 10 18:58:46.722732 2016] [:error] [pid 9669] [client 127.0.0.1:60648] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 8, referer: http://www.bingtek.local/
+[Thu Nov 10 18:58:46.723511 2016] [:error] [pid 9669] [client 127.0.0.1:60648] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 51, referer: http://www.bingtek.local/
