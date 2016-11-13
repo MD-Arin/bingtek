@@ -26,13 +26,6 @@
 
     return header('location: dashboard.php?q=home');
   }
-  elseif (isset($_POST['savePageLink']))
-  {
-    $pageLink = $_POST['pageLink'];
-    update_content('home_content', '1-btn-link', $pageLink);
-
-    return header('location: dashboard.php?q=home');
-  }
   elseif (isset($_POST['1_saveAll']))
   {
     $file = $_FILES['img_1']['name'];

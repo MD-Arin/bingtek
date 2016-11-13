@@ -8,7 +8,7 @@
         <h3 class="text-inverse"><b><?php retrieve_data('home_content','1-h3','body_content');?></b></h3>
         <br>
         <!--Add a dynamic link to a page-->
-        <a href="#" class="btn btn-info">Learn More</a>
+        <a href="index.php?q=first-ps" class="btn btn-info">Learn More</a>
       </div>
     </div>
   </div>
@@ -18,7 +18,7 @@
   <div class="jumbotron">
     <h1><?php retrieve_data('home_content','2-jumbotron-h1','body_content');?></h1>
     <p><?php retrieve_data('home_content','2-jumbotron-p','body_content');?></p>
-    <a href="#" class="btn btn-primary">Learn more</a>
+    <a href="index.php?q=second-ps" class="btn btn-primary">Learn more</a>
   </div>
 </div>
 
@@ -31,7 +31,7 @@
         <p>
           <?php retrieve_data('home_content', '3-well-1-p', 'body_content');?>
         </p>
-        <a href="#" class="btn btn-primary">Learn More</a>
+        <a href="index.php?q=third-ps" class="btn btn-primary">Learn More</a>
       </div>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -41,7 +41,7 @@
         <p>
           <?php retrieve_data('home_content', '3-well-2-p', 'body_content');?>
         </p>
-        <a href="#" class="btn btn-primary">Learn More</a>
+        <a href="index.php?q=fourth-ps" class="btn btn-primary">Learn More</a>
       </div>
     </div>
   </div>

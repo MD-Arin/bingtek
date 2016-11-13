@@ -13,7 +13,7 @@
               <h1 class="text-inverse"><b><?php retrieve_data('home_content', '1-h1', 'body_content');?></b></h1>
               <h3 class="text-inverse"><b><?php retrieve_data('home_content', '1-h3', 'body_content');?></b></h3>
               <br>
-              <a href="#" class="btn btn-info">Learn More</a>
+              <a href="index.php?q=first-ps" class ="btn btn-info">Learn More</a>
             </div>
           </div>
         </div>
@@ -27,8 +27,6 @@
         <input class="btn btn-primary" type="submit" name="saveImageHeading" value="Save">
         <input class="form-control margin-top" type="text" name="imageSubheading" placeholder="Image Sub-Heading">
         <input class="btn btn-primary" type="submit" name="saveImageSubheading" value="Save">
-        <input class="form-control margin-top" type="number" name="pageLink" placeholder="Learn More leads to which product page? Answer From Number 1-4.">
-        <input class="btn btn-primary" type="submit" name="savePageLink" value="Save">
         <br>
         <input class="btn btn-lg btn-primary margin-top" name="1_saveAll" type="submit" value="Save All">
       </form>
@@ -47,12 +45,12 @@
         <div class="jumbotron">
           <h1><?php retrieve_data('home_content', '2-jumbotron-h1', 'body_content');?></h1>
           <p><?php retrieve_data('home_content', '2-jumbotron-p', 'body_content');?></p>
-          <a href="#" class="btn btn-primary">Learn more</a>
+          <a href="index.php?q=second-ps" class="btn btn-primary">Learn more</a>
         </div>
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <form class="" action="" method="post">
+      <form class="" action="edit-home.php" method="post">
         <input class="form-control margin-top" type="text" placeholder="Heading">
         <textarea class="form-control margin-top" rows="8" placeholder="Content"></textarea>
         <input class="form-control margin-top" type="number" placeholder="Learn More leads to which product page? Answer From Number 1-4.">
@@ -69,17 +67,18 @@
         <p>
           <?php retrieve_data('home_content', '3-well-1-p', 'body_content');?>
         </p>
-        <a href="#" class="btn btn-primary">Learn More</a>
+        <a href="index.php?q=third-ps" class="btn btn-primary">Learn More</a>
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <form class="" action="" method="post">
+      <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary" type="file" value="Upload Image">
         <input class="form-control margin-top" type="text" placeholder="Image url:">
+        <input  class="btn btn-primary" type="submit" value="Save"
         <input class="form-control margin-top" type="text" placeholder="Heading">
         <textarea class="form-control margin-top" rows="8" placeholder="Content"></textarea>
         <input class="form-control margin-top" type="number" placeholder="Learn More leads to which product page? Answer From Number 1-4.">
-        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save">
+        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save All">
       </form>
     </div>
   </div>
@@ -92,11 +91,11 @@
         <p>
           <?php retrieve_data('home_content', '3-well-2-p', 'body_content');?>
         </p>
-        <a href="#" class="btn btn-primary">Learn More</a>
+        <a href="index.php?q=fourth-ps" class="btn btn-primary">Learn More</a>
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <form class="" action="" method="post">
+      <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary" type="file" value="Upload Image">
         <input class="form-control margin-top" type="text" placeholder="Image url:">
         <input class="form-control margin-top" type="text" placeholder="Heading">
@@ -126,7 +125,7 @@
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <form class="" action="" method="post">
+      <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary margin-top" type="file" value="Upload Image">
         <input class="form-control margin-top" type="text" placeholder="Image URL">
         <input class="form-control margin-top" type="text" placeholder="A title: Content">
@@ -158,7 +157,7 @@
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <form class="" action="" method="post">
+      <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary margin-top" type="file" value="Upload Image">
         <input class="form-control margin-top" type="text" placeholder="Image URL">
         <input class="form-control margin-top" type="text" placeholder="A title: Content">

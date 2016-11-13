@@ -31,7 +31,6 @@
     insert_image('home_content', '1-img', 'res/images/placeholder-0.jpg');
     insert_content('home_content', '1-h1', 'Header');
     insert_content('home_content', '1-h3', 'Subheading for the above heading');
-    insert_content('home_content', '1-btn-link', '1');
 
     //Section 2
     insert_content('home_content', '2-jumbotron-h1', 'Heading');

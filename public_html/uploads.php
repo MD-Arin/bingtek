@@ -1,4 +1,6 @@
 <?php
+
+
   function uploadImages($file)
   {
     $target_dir = 'res/images/';

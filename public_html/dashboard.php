@@ -15,7 +15,7 @@
       <div class="row">
         <div class="cols-xs-2 col-sm-2 col-md-2 col-lg-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="#"><a href="">Edit Navigation</a></li>
+            <li class="nav nav_table"><a href="">Edit Navigation</a></li>
             <li><a href="dashboard.php?q=nav">Navbar and Top Panel</a></li>
             <li><a href="dashboard.php?q=footer">Footer and Bottom Panel</a></li>
           </ul>
