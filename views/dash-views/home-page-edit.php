@@ -51,13 +51,15 @@
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-home.php" method="post">
-        <input class="form-control margin-top" type="text" placeholder="Heading">
-        <textarea class="form-control margin-top" rows="8" placeholder="Content"></textarea>
-        <input class="form-control margin-top" type="number" placeholder="Learn More leads to which product page? Answer From Number 1-4.">
-        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save">
+        <input class="form-control margin-top" name="2_heading" type="text" placeholder="Heading">
+        <input class="btn btn-primary" type="submit" name="2_saveHeading" value="Save">
+        <textarea class="form-control margin-top" name="2_body" rows="8" placeholder="Content"></textarea>
+        <input class="btn btn-primary" type="submit" name="2_saveBody" value="Save">
+        <br>
+        <input class="btn btn-lg btn-primary margin-top" name="2_saveAll"  type="submit" value="Save All">
       </form>
   </div>
-  </div>
+</div>
   <hr>
   <div class="row">
     <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
@@ -72,13 +74,14 @@
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
-        <input class="btn btn-lg btn-primary" type="file" value="Upload Image">
-        <input class="form-control margin-top" type="text" placeholder="Image url:">
-        <input  class="btn btn-primary" type="submit" value="Save"
-        <input class="form-control margin-top" type="text" placeholder="Heading">
-        <textarea class="form-control margin-top" rows="8" placeholder="Content"></textarea>
-        <input class="form-control margin-top" type="number" placeholder="Learn More leads to which product page? Answer From Number 1-4.">
-        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save All">
+        <input class="btn btn-lg btn-primary" name="3_img_2" type="file" value="Upload Image">
+        <input class="btn btn-primary" type="submit" name="save3-img_2" value="Save">
+        <input class="form-control margin-top" name="3_heading" type="text" placeholder="Heading">
+        <input  class="btn btn-primary" name="save3_heading" type="submit" value="Save">
+        <textarea class="form-control margin-top" name="3_body" rows="8" placeholder="Content"></textarea>
+        <input  class="btn btn-primary" name="save3_body" type="submit" value="Save">
+        <br>
+        <input class="btn btn-lg btn-primary margin-top" name="3_saveAll" type="submit" value="Save All">
       </form>
     </div>
   </div>
@@ -96,12 +99,14 @@
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
-        <input class="btn btn-lg btn-primary" type="file" value="Upload Image">
-        <input class="form-control margin-top" type="text" placeholder="Image url:">
-        <input class="form-control margin-top" type="text" placeholder="Heading">
-        <textarea class="form-control margin-top" rows="8" placeholder="Content"></textarea>
-        <input class="form-control margin-top" type="number" placeholder="Learn More leads to which product page? Answer From Number 1-4.">
-        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save">
+        <input class="btn btn-lg btn-primary" name="4_img_3" type="file" value="Upload Image">
+        <input  class="btn btn-primary" name="save4_img_3" type="submit" value="Save">
+        <input class="form-control margin-top" name="4_heading" type="text" placeholder="Heading">
+        <input class="btn btn-primary" type="submit" name="save4_heading" value="Save">
+        <textarea class="form-control margin-top" name="4_body" rows="8" placeholder="Content"></textarea>
+        <input  class="btn btn-primary" name="save4_body" type="submit" value="Save">
+        <br>
+        <input class="btn btn-lg btn-primary margin-top" name="4_saveAll" type="submit" value="Save All">
       </form>
     </div>
   </div>
@@ -126,14 +131,20 @@
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
-        <input class="btn btn-lg btn-primary margin-top" type="file" value="Upload Image">
-        <input class="form-control margin-top" type="text" placeholder="Image URL">
-        <input class="form-control margin-top" type="text" placeholder="A title: Content">
-        <input class="form-control margin-top" type="text" placeholder="A Subtitle: Content">
-        <textarea class="form-control margin-top" rows="8" placeholder="Body Content"></textarea>
-        <input class="form-control margin-top" type="text" placeholder="Subtitle 2: Content">
-        <textarea class="form-control margin-top" rows="8" placeholder="Subtitle 2 Body Content"></textarea>
-        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save">
+        <input class="btn btn-lg btn-primary margin-top" name="5_img_4" type="file" value="Upload Image">
+        <input  class="btn btn-primary" name="save5_img_4" type="submit" value="Save">
+        <input class="form-control margin-top" name="5_title" type="text" placeholder="A title: Content">
+        <input  class="btn btn-primary" name="save5_title" type="submit" value="Save">
+        <input class="form-control margin-top" name="5_subtitle_1" type="text" placeholder="A Subtitle: Content">
+        <input  class="btn btn-primary" name="save5_subtitle_1" type="submit" value="Save">
+        <textarea class="form-control margin-top" name="save5_body_1" rows="8" placeholder="Body Content"></textarea>
+        <input  class="btn btn-primary" name="save5_body_1" type="submit" value="Save">
+        <input class="form-control margin-top" name="5_subtitle_2" type="text" placeholder="Subtitle 2: Content">
+        <input  class="btn btn-primary" name="save5_subtitle_2" type="submit" value="Save">
+        <textarea class="form-control margin-top" name="5_body_2" rows="8" placeholder="Subtitle 2 Body Content"></textarea>
+        <input  class="btn btn-primary" name="save5_body_2" type="submit" value="Save">
+        <br>
+        <input class="btn btn-lg btn-primary margin-top" name="5_saveAll" type="submit" value="Save All">
       </form>
     </div>
   </div>
@@ -158,14 +169,20 @@
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
-        <input class="btn btn-lg btn-primary margin-top" type="file" value="Upload Image">
-        <input class="form-control margin-top" type="text" placeholder="Image URL">
-        <input class="form-control margin-top" type="text" placeholder="A title: Content">
-        <input class="form-control margin-top" type="text" placeholder="A Subtitle: Content">
-        <textarea class="form-control margin-top" rows="8" placeholder="Body Content"></textarea>
-        <input class="form-control margin-top" type="text" placeholder="Subtitle 2: Content">
-        <textarea class="form-control margin-top" rows="8" placeholder="Subtitle 2 Body Content"></textarea>
-        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save">
+        <input class="btn btn-lg btn-primary margin-top" name="6_img_5" type="file" value="Upload Image">
+        <input  class="btn btn-primary" name="save6_img_5" type="submit" value="Save">
+        <input class="form-control margin-top" name="6_title" type="text" placeholder="A title: Content">
+        <input  class="btn btn-primary" name="save6_title" type="submit" value="Save">
+        <input class="form-control margin-top" name="6_subtitle_1" type="text" placeholder="A Subtitle: Content">
+        <input  class="btn btn-primary" name="save6_subtitle_1" type="submit" value="Save">
+        <textarea class="form-control margin-top" name="6_body_1" rows="8" placeholder="Body Content"></textarea>
+        <input  class="btn btn-primary" name="save6_body_1" type="submit" value="Save">
+        <input class="form-control margin-top" name="6_subtitle_2" type="text" placeholder="Subtitle 2: Content">
+        <input  class="btn btn-primary" name="save6_subtitle_2" type="submit" value="Save">
+        <textarea class="form-control margin-top" name="6_body_2" rows="8" placeholder="Subtitle 2 Body Content"></textarea>
+        <input  class="btn btn-primary" name="save6_body_2" type="submit" value="Save">
+        <br>
+        <input class="btn btn-lg btn-primary margin-top" name="6_saveAll" type="submit" value="SaveAll">
       </form>
     </div>
   </div>
