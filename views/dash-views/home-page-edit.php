@@ -13,7 +13,7 @@
               <h1 class="text-inverse"><b><?php retrieve_data('home_content', '1-h1', 'body_content');?></b></h1>
               <h3 class="text-inverse"><b><?php retrieve_data('home_content', '1-h3', 'body_content');?></b></h3>
               <br>
-              <a href="index.php?q=first-ps" class ="btn btn-info">Learn More</a>
+              <a href="index.php?q=first-ps" class="btn btn-info">Learn More</a>
             </div>
           </div>
         </div>
