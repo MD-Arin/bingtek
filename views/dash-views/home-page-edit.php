@@ -75,7 +75,7 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary" name="3_img_2" type="file" value="Upload Image">
-        <input class="btn btn-primary" type="submit" name="save3-img_2" value="Save">
+        <input class="btn btn-primary" type="submit" name="save3_img_2" value="Save">
         <input class="form-control margin-top" name="3_heading" type="text" placeholder="Heading">
         <input  class="btn btn-primary" name="save3_heading" type="submit" value="Save">
         <textarea class="form-control margin-top" name="3_body" rows="8" placeholder="Content"></textarea>
@@ -127,6 +127,7 @@
               <?php retrieve_data('home_content', '4-well2-p', 'body_content');?>
             </p>
           </div>
+          <hr>
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -137,7 +138,7 @@
         <input  class="btn btn-primary" name="save5_title" type="submit" value="Save">
         <input class="form-control margin-top" name="5_subtitle_1" type="text" placeholder="A Subtitle: Content">
         <input  class="btn btn-primary" name="save5_subtitle_1" type="submit" value="Save">
-        <textarea class="form-control margin-top" name="save5_body_1" rows="8" placeholder="Body Content"></textarea>
+        <textarea class="form-control margin-top" name="5_body_1" rows="8" placeholder="Body Content"></textarea>
         <input  class="btn btn-primary" name="save5_body_1" type="submit" value="Save">
         <input class="form-control margin-top" name="5_subtitle_2" type="text" placeholder="Subtitle 2: Content">
         <input  class="btn btn-primary" name="save5_subtitle_2" type="submit" value="Save">
