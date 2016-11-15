@@ -133,4 +133,8 @@
   }
 
   //Section 3 of about
+  elseif(isset($_POST['']))
+  {
+    #Continue here...
+  }
  ?>
