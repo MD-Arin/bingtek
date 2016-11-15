@@ -1,4 +1,4 @@
-<?php require('uploads.php');?>
+<?php require('../controllers/uploads.php');?>
 <?php require('../model/database.php');?>
 <?php
   //saving section 1 of home
