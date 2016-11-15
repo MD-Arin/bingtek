@@ -24,12 +24,17 @@
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <form class="" action="" method="post">
-        <input class="btn btn-lg btn-primary" type="file" value="Upload Image">
-        <input class="form-control margin-top" type="text" placeholder="Founding date">
-        <input class="form-control margin-top" type="text" placeholder="Founding father">
-        <textarea class="form-control margin-top" rows="8" placeholder="How or why the company was founded: The Story"></textarea>
-        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save">
+      <form class="" action="edit-about.php" method="post" enctype="multipart/form-data">
+        <input class="btn btn-lg btn-primary" name="1_img_1" type="file" value="Upload Image">
+        <input class="btn btn-primary" type="submit" name="save1_img_1" value="Save">
+        <input class="form-control margin-top" name="1_founding_date" type="text" placeholder="Founding date">
+        <input class="btn btn-primary" type="submit" name="save1_founding_date" value="Save">
+        <input class="form-control margin-top" name="1_founder" type="text" placeholder="Founding father">
+        <input class="btn btn-primary" type="submit" name="save1_founder" value="Save">
+        <textarea class="form-control margin-top" name="1_story" rows="8" placeholder="How or why the company was founded: The Story"></textarea>
+        <input class="btn btn-primary" type="submit" name="save1_story" value="Save">
+        <br>
+        <input class="btn btn-lg btn-primary margin-top" name="1_saveAll" type="submit" value="Save All">
       </form>
     </div>
   </div>
@@ -77,7 +82,7 @@
           <br>
 
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <h4><?php retrieve_data('about_content', '2-h4-1.1', 'image_url');?></h4>
+          <h4><?php retrieve_data('about_content', '2-h4-1.1', 'body_content');?></h4>
           <h4><?php retrieve_data('about_content', '2-h4-2.1', 'body_content');?></h4>
           <hr>
           <h4>The Story: </h4>
@@ -99,20 +104,30 @@
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <form class="" action="" method="post">
-        <input class="btn btn-lg btn-primary" type="file" value="Upload 1st Image">
-        <input class="form-control margin-top" type="text" placeholder="Year For 1st Accomplishment">
-        <input class="form-control margin-top" type="text" placeholder="1st Accomplishment or Milestone">
-        <textarea class="form-control margin-top" rows="8" placeholder="The Story: 1st Accomplishment"></textarea>
-        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save">
+      <form class="" action="edit-about.php" method="post" enctype="multipart/form-data">
+        <input class="btn btn-lg btn-primary" name="2_img_2" type="file" value="Upload 1st Image">
+        <input class="btn btn-primary" type="submit" name="save2_img_2" value="Save">
+        <input class="form-control margin-top" name="2_year_1" type="text" placeholder="Year For 1st Accomplishment">
+        <input class="btn btn-primary" type="submit" name="save2_year_1" value="Save">
+        <input class="form-control margin-top" name="2_accomplishment_1" type="text" placeholder="1st Accomplishment or Milestone">
+        <input class="btn btn-primary" type="submit" name="save2_accomplishment_1" value="Save">
+        <textarea class="form-control margin-top" name="2_story_1" rows="8" placeholder="The Story: 1st Accomplishment"></textarea>
+        <input class="btn btn-primary" type="submit" name="save2_story_1" value="Save">
+        <br>
+        <input class="btn btn-lg btn-primary margin-top" name="2_saveAll_1" type="submit" value="Save All">
       </form>
       <hr>
-      <form class="" action="" method="post">
-        <input class="btn btn-lg btn-primary" type="file" value="Upload 2nd Image">
-        <input class="form-control margin-top" type="text" placeholder="Year For 2nd Accomplishment">
-        <input class="form-control margin-top" type="text" placeholder="2nd Accomplishment or Milestone">
-        <textarea class="form-control margin-top" rows="8" placeholder="The Story: 2nd Accomplishment"></textarea>
-        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save">
+      <form class="" action="edit-about.php" method="post" enctype="multipart/form-data">
+        <input class="btn btn-lg btn-primary" name="2_img_3" type="file" value="Upload 2nd Image">
+        <input class="btn btn-primary" type="submit" name="save2_img_3" value="Save">
+        <input class="form-control margin-top" name="2_year_2" type="text" placeholder="Year For 2nd Accomplishment">
+        <input class="btn btn-primary" type="submit" name="save2_year_2" value="Save">
+        <input class="form-control margin-top" name="2_accomplishment_2" type="text" placeholder="2nd Accomplishment or Milestone">
+        <input class="btn btn-primary" type="submit" name="save2_accomplishment_2" value="Save">
+        <textarea class="form-control margin-top" name="2_story_2" rows="8" placeholder="The Story: 2nd Accomplishment"></textarea>
+        <input class="btn btn-primary" type="submit" name="save2_story_2" value="Save">
+        <br>
+        <input class="btn btn-lg btn-primary margin-top" name="2_saveAll_2" type="submit" value="Save All">
       </form>
     </div>
   </div>

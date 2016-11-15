@@ -22,7 +22,7 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary" name="img_1" type="file" value="Upload Image">
-        <input class="btn btn-primary" name="saveImg_1" type="submit" value="Save Image">
+        <input class="btn btn-primary" name="saveImg_1" type="submit" value="Save">
         <input class="form-control margin-top" name="imageHeading" type="text" placeholder="Image Heading">
         <input class="btn btn-primary" type="submit" name="saveImageHeading" value="Save">
         <input class="form-control margin-top" type="text" name="imageSubheading" placeholder="Image Sub-Heading">
