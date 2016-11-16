@@ -32,10 +32,10 @@
             <hr>
             <li>Edit Products and Services</li>
             <hr>
-            <li><a href="dashboard.php?q=first-ps"><?php retrieve_data('nav_content', '2-ul-li-fps', 'body_content');?></a></li>
-            <li><a href="dashboard.php?q=second-ps"><?php retrieve_data('nav_content', '2-ul-li-sps', 'body_content');?></a></li>
-            <li><a href="dashboard.php?q=third-ps"><?php retrieve_data('nav_content', '2-ul-li-tps', 'body_content');?></a></li>
-            <li><a href="dashboard.php?q=fourth-ps"><?php retrieve_data('nav_content', '2-ul-li-frthps', 'body_content');?></a></li>
+            <li><a href="dashboard.php?q=first-ps">First Product Page</a></li>
+            <li><a href="dashboard.php?q=second-ps">Second Product Page</a></li>
+            <li><a href="dashboard.php?q=third-ps">Third Product Page</a></li>
+            <li><a href="dashboard.php?q=fourth-ps">Fourth Product Page</a></li>
             </ul>
             </li>
 
