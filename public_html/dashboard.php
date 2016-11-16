@@ -20,14 +20,15 @@
             <hr>
             <li><a href="dashboard.php?q=nav">Navbar and Top Panel</a></li>
             <li><a href="dashboard.php?q=footer">Footer and Bottom Panel</a></li>
-            <li><a href="dashboard.php?q=contacts">Contacts Page</a></li>
           </ul>
           <ul class="nav nav-sidebar">
             <hr>
-            <li>Edit Pages</li>
+            <li>Edit Pages
             <hr>
-            <li><a href="dashboard.php?q=home">Home Page</a></li>
-            <li><a href="dashboard.php?q=about">About Page</a></li>
+            <ul>
+              <li><a href="dashboard.php?q=home">Home Page</a></li>
+              <li><a href="dashboard.php?q=about">About Page</a></li>
+              <li><a href="dashboard.php?q=contacts">Contacts Page</a></li>
             <hr>
             <li>Edit Products and Services</li>
             <hr>
@@ -35,6 +36,8 @@
             <li><a href="dashboard.php?q=second-ps">Second Product Page</a></li>
             <li><a href="dashboard.php?q=third-ps">Third Product Page</a></li>
             <li><a href="dashboard.php?q=fourth-ps">Fourth Product Page</a></li>
+            </ul>
+            </li>
 
           </ul>
           <ul class="nav nav-sidebar">

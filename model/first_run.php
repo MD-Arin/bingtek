@@ -107,7 +107,7 @@
       elementum semper nisi.');
   //Retrieval done
   //Retrieval dash done
-  //Update from dash done
+  //Updating from dash done
 
   //About
     //Section1 Our Story
@@ -189,11 +189,13 @@
     insert_content('about_content', '5-p-3', 'Developer');
   //Retrieval done
   //Retrieval dash done
+  //Updating from dash done
 
   //Contacts
     //Section 1
     insert_content('contacts_content', '1-iframe', '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.788658758764!2d39.672811714272214!3d-4.063452897045186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1840131f2a02c0ad%3A0x26a250be10fd2125!2sKaderbhoy+Building%2C+Nkrumah+Rd%2C+Mombasa!5e0!3m2!1sen!2ske!4v1474294144629" width="100%" height="500px"></iframe>');
   //Retrieval done
+  //Updating from dash done
 
   //First Product or Service
     //Section 1

@@ -17,7 +17,7 @@
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
-        <form class="" action="" method="post">
+        <form class="" action="edit-first-ps.php" method="post" enctype="multipart/form-data">
           <input class="btn btn-primary margin-top" type="button" value="Upload Image">
           <textarea class="form-control margin-top" rows="8" placeholder="Content"></textarea>
           <input class="btn btn-primary margin-top" type="submit" value="Save">
@@ -64,7 +64,7 @@
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
-        <form class="" action="" method="post">
+        <form class="" action="edit-first-ps.php" method="post" enctype="multipart/form-data">
           <div class="row">
             <input class="btn btn-primary margin-top form-inline" type="file" value="Upload Image">
             <input class="form-control margin-top" type="number" placeholder="Image No? of 2">
@@ -106,7 +106,7 @@
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
-        <form class="" action="" method="post">
+        <form class="" action="edit-first-ps.php" method="post" enctype="multipart/form-data">
           <input class="form-control margin-top" type="text" placeholder="Heading">
           <input class="form-control margin-top" type="text" placeholder="Sub-Heading">
           <textarea class="form-control margin-top" rows="8" placeholder="Body Content"></textarea>
@@ -142,7 +142,7 @@
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
-        <form class="" action="" method="post">
+        <form class="" action="edit-first-ps.php" method="post" enctype="multipart/form-data">
           <input class="btn btn-primary margin-top form-inline" type="file" value="Upload Image">
           <input class="form-control margin-top" type="number" placeholder="Image No? of 2">
           <br>

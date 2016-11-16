@@ -21,7 +21,7 @@
         <li role="presentation"><a href="index.php?q=fourth-ps"><span class="glyphicon glyphicon-cog"> <?php retrieve_data('nav_content', '2-ul-li-frthps', 'body_content');?></span></a></li>
       </ul>
     </li>
-    <li role="presentation"><a href="index.php?q=login"><span class="glyphicon glyphicon-user"> Login</span></a></li>
     <li role="presentation"><a href="index.php?q=contacts"><span class="glyphicon glyphicon-envelope"> Contacts</span></a></li>
+    <li role="presentation"><a href="index.php?q=login"><span class="glyphicon glyphicon-user"> Manage Site</span></a></li>
   </ul>
 </div>

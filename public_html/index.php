@@ -1,5 +1,4 @@
 <?php require('../model/database.php');?>
-<?php require('../controllers/uploads.php');?>
 <!DOCTYPE html>
 <html>
   <head>

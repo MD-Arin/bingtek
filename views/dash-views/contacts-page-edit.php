@@ -20,9 +20,15 @@
     </p>
   </div>
   <div class="row">
-    <form class="" action="" method="post">
-      <textarea class="form-control margin-top" rows="8" placeholder="Paste the code here"></textarea>
-      <input class="btn btn-primary margin-top" type="submit" value="Save">
+    <form class="" action="edit-contacts.php" method="post">
+      <textarea class="form-control margin-top" name="map_code" rows="8" placeholder="Paste the code here"></textarea>
+      <input class="btn btn-primary margin-top" name="saveMap" type="submit" value="Save Map">
     </form>
   </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 </div>

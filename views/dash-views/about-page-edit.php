@@ -184,20 +184,26 @@
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <form class="" action="" method="post">
+      <form class="" action="edit-about.php" method="post" enctype="multipart/form-data">
         <div class="row">
-          <input class="btn btn-lg btn-primary" type="file" value="Upload Image">
-          <input class="form-control" type="number" placeholder="Column No ? of 4">
+          <input class="btn btn-lg btn-primary" name="4_img_4" type="file" value="Upload Image">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+            <input class="form-control" name="4_allImages" type="number" placeholder="Column No ? of 4">
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
+            <input class="btn btn-primary" type="submit" name="save4_img_4" value="Save Image">
+          </div>
         </div>
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-          <textarea class="form-control margin-top" rows="8" placeholder="1st Testimonial message"></textarea>
+          <textarea class="form-control margin-top" name=4_message rows="8" placeholder="1st Testimonial message"></textarea>
+          <input class="form-control margin-top" name="4_column" type="number" placeholder="Column No ? of 4">
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-          <input class="form-control margin-top" type="text" placeholder="Name">
-          <input class="form-control margin-top" type="text" placeholder="Position">
-          <input class="form-control margin-top" type="text" placeholder="Company">
+          <input class="form-control margin-top" name=4_name type="text" placeholder="Name">
+          <input class="form-control margin-top" name="4_position" type="text" placeholder="Position">
+          <input class="form-control margin-top" name="4_company" type="text" placeholder="Company">
         </div>
-        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save">
+        <input class="btn btn-lg btn-primary margin-top" name="4_saveColumn" type="submit" value="Save Column">
       </form>
     </div>
   </div>
@@ -257,10 +263,11 @@
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <form class="" action="" method="post">
+      <form class="" action="edit-about.php" method="post" enctype="multipart/form-data">
         <div class="row">
-          <input class="btn btn-lg btn-primary" type="file" value="Upload Image">
-          <input class="form-control" type="number" placeholder="Partner image No ? of 6">
+          <input class="btn btn-lg btn-primary" type="file" name="5_imgPartners" value="Upload Image">
+          <input class="form-control" type="number" name="5_imageNo" placeholder="Partner image No ? of 6">
+          <input class="btn btn-primary" type="submit" name="5_saveImage" value="Save Image">
         </div>
       </form>
     </div>
@@ -296,16 +303,18 @@
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <form class="" action="" method="post">
+      <form class="" action="edit-about.php" method="post" enctype="multipart/form-data">
         <div class="row">
-            <input class="btn btn-lg btn-primary" type="file" value="Upload Image">
-            <input class="form-control" type="number" placeholder="Team Column No ? of 3">
+            <input class="btn btn-lg btn-primary" type="file" name="6_imgPerson"  value="Upload Image">
+            <input class="form-control" type="number" name="6_imageColumn" placeholder="Team Column No ? of 3">
+            <input class="btn btn-primary" type="submit" name="6_saveImage" value="Save Image">
         </div>
         <div class="row">
-          <input class="form-control margin-top" type="text" placeholder="Name">
-          <input class="form-control margin-top" type="text" placeholder="Position">
+          <input class="form-control margin-top" type="text" name="6_name" placeholder="Name">
+          <input class="form-control margin-top" type="text" name="6_position" placeholder="Position">
+          <input class="form-control" type="number" name="6_column" placeholder="Team Column No ? of 3">
         </div>
-        <input class="btn btn-lg btn-primary margin-top" type="submit" value="Save">
+        <input class="btn btn-lg btn-primary margin-top" type="submit" name="6_saveColumn" value="Save Column">
       </form>
     </div>
   </div>
