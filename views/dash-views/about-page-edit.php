@@ -26,7 +26,7 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-about.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary" name="1_img_1" type="file" value="Upload Image">
-        <input class="btn btn-primary" type="submit" name="save1_img_1" value="Save">
+        <input class="btn btn-primary" type="submit" name="save1_img_1" value="Save Image">
         <input class="form-control margin-top" name="1_founding_date" type="text" placeholder="Founding date">
         <input class="btn btn-primary" type="submit" name="save1_founding_date" value="Save">
         <input class="form-control margin-top" name="1_founder" type="text" placeholder="Founding father">
@@ -106,7 +106,7 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-about.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary" name="2_img_2" type="file" value="Upload 1st Image">
-        <input class="btn btn-primary" type="submit" name="save2_img_2" value="Save">
+        <input class="btn btn-primary" type="submit" name="save2_img_2" value="Save Image">
         <input class="form-control margin-top" name="2_year_1" type="text" placeholder="Year For 1st Accomplishment">
         <input class="btn btn-primary" type="submit" name="save2_year_1" value="Save">
         <input class="form-control margin-top" name="2_accomplishment_1" type="text" placeholder="1st Accomplishment or Milestone">
@@ -119,7 +119,7 @@
       <hr>
       <form class="" action="edit-about.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary" name="2_img_3" type="file" value="Upload 2nd Image">
-        <input class="btn btn-primary" type="submit" name="save2_img_3" value="Save">
+        <input class="btn btn-primary" type="submit" name="save2_img_3" value="Save Image">
         <input class="form-control margin-top" name="2_year_2" type="text" placeholder="Year For 2nd Accomplishment">
         <input class="btn btn-primary" type="submit" name="save2_year_2" value="Save">
         <input class="form-control margin-top" name="2_accomplishment_2" type="text" placeholder="2nd Accomplishment or Milestone">
@@ -188,7 +188,7 @@
         <div class="row">
           <input class="btn btn-lg btn-primary" name="4_img_4" type="file" value="Upload Image">
           <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
-            <input class="form-control" name="4_allImages" type="number" placeholder="Column No ? of 4">
+            <input class="form-control" name="4_allImages" type="number" min="1" max="4" value="1" placeholder="Column No ? of 4">
           </div>
           <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 margin-top">
             <input class="btn btn-primary" type="submit" name="save4_img_4" value="Save Image">
@@ -196,7 +196,7 @@
         </div>
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
           <textarea class="form-control margin-top" name=4_message rows="8" placeholder="1st Testimonial message"></textarea>
-          <input class="form-control margin-top" name="4_column" type="number" placeholder="Column No ? of 4">
+          <input class="form-control margin-top" name="4_column" type="number" min="1" max="4" value="1" placeholder="Column No ? of 4">
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <input class="form-control margin-top" name=4_name type="text" placeholder="Name">
@@ -266,7 +266,7 @@
       <form class="" action="edit-about.php" method="post" enctype="multipart/form-data">
         <div class="row">
           <input class="btn btn-lg btn-primary" type="file" name="5_imgPartners" value="Upload Image">
-          <input class="form-control" type="number" name="5_imageNo" placeholder="Partner image No ? of 6">
+          <input class="form-control" type="number" name="5_imageNo" min="1" max="6" value="1" placeholder="Partner image No ? of 6">
           <input class="btn btn-primary" type="submit" name="5_saveImage" value="Save Image">
         </div>
       </form>
@@ -306,13 +306,13 @@
       <form class="" action="edit-about.php" method="post" enctype="multipart/form-data">
         <div class="row">
             <input class="btn btn-lg btn-primary" type="file" name="6_imgPerson"  value="Upload Image">
-            <input class="form-control" type="number" name="6_imageColumn" placeholder="Team Column No ? of 3">
+            <input class="form-control" type="number" name="6_imageColumn" min="1" max="3" value="1" placeholder="Team Column No ? of 3">
             <input class="btn btn-primary" type="submit" name="6_saveImage" value="Save Image">
         </div>
         <div class="row">
           <input class="form-control margin-top" type="text" name="6_name" placeholder="Name">
           <input class="form-control margin-top" type="text" name="6_position" placeholder="Position">
-          <input class="form-control" type="number" name="6_column" placeholder="Team Column No ? of 3">
+          <input class="form-control" type="number" name="6_column" min="1" max="3" value="1" placeholder="Team Column No ? of 3">
         </div>
         <input class="btn btn-lg btn-primary margin-top" type="submit" name="6_saveColumn" value="Save Column">
       </form>

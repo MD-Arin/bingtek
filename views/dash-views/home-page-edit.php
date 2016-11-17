@@ -22,7 +22,7 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary" name="img_1" type="file" value="Upload Image">
-        <input class="btn btn-primary" name="saveImg_1" type="submit" value="Save">
+        <input class="btn btn-primary" name="saveImg_1" type="submit" value="Save Image">
         <input class="form-control margin-top" name="imageHeading" type="text" placeholder="Image Heading">
         <input class="btn btn-primary" type="submit" name="saveImageHeading" value="Save">
         <input class="form-control margin-top" type="text" name="imageSubheading" placeholder="Image Sub-Heading">
@@ -75,7 +75,7 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary" name="3_img_2" type="file" value="Upload Image">
-        <input class="btn btn-primary" type="submit" name="save3_img_2" value="Save">
+        <input class="btn btn-primary" type="submit" name="save3_img_2" value="Save Image">
         <input class="form-control margin-top" name="3_heading" type="text" placeholder="Heading">
         <input  class="btn btn-primary" name="save3_heading" type="submit" value="Save">
         <textarea class="form-control margin-top" name="3_body" rows="8" placeholder="Content"></textarea>
@@ -100,7 +100,7 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary" name="4_img_3" type="file" value="Upload Image">
-        <input  class="btn btn-primary" name="save4_img_3" type="submit" value="Save">
+        <input  class="btn btn-primary" name="save4_img_3" type="submit" value="Save Image">
         <input class="form-control margin-top" name="4_heading" type="text" placeholder="Heading">
         <input class="btn btn-primary" type="submit" name="save4_heading" value="Save">
         <textarea class="form-control margin-top" name="4_body" rows="8" placeholder="Content"></textarea>
@@ -133,7 +133,7 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary margin-top" name="5_img_4" type="file" value="Upload Image">
-        <input  class="btn btn-primary" name="save5_img_4" type="submit" value="Save">
+        <input  class="btn btn-primary" name="save5_img_4" type="submit" value="Save Image">
         <input class="form-control margin-top" name="5_title" type="text" placeholder="A title: Content">
         <input  class="btn btn-primary" name="save5_title" type="submit" value="Save">
         <input class="form-control margin-top" name="5_subtitle_1" type="text" placeholder="A Subtitle: Content">
@@ -171,7 +171,7 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <form class="" action="edit-home.php" method="post" enctype="multipart/form-data">
         <input class="btn btn-lg btn-primary margin-top" name="6_img_5" type="file" value="Upload Image">
-        <input  class="btn btn-primary" name="save6_img_5" type="submit" value="Save">
+        <input  class="btn btn-primary" name="save6_img_5" type="submit" value="Save Image">
         <input class="form-control margin-top" name="6_title" type="text" placeholder="A title: Content">
         <input  class="btn btn-primary" name="save6_title" type="submit" value="Save">
         <input class="form-control margin-top" name="6_subtitle_1" type="text" placeholder="A Subtitle: Content">

@@ -49,16 +49,18 @@
       </div>
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-      <form class="" action="" method="post">
+      <form class="" action="edit-first-ps.php" method="post" enctype="multipart/form-data">
         <div class="row">
-          <input class="btn btn-primary form-inline" type="file" value="Upload Image">
-          <input class="form-control" type="number" placeholder="Image No? of 3">
+          <input class="btn btn-primary form-inline" name="1_img" type="file" value="Upload Image">
+          <input class="form-control" name="1_imgNo" type="number" min="1" max="3" value="1" placeholder="Image No? of 3">
+          <input class="btn btn-primary" type="submit" name="save1_img" value="Save Image">
         </div>
         <div class="row">
-          <input class="form-control margin-top" type="text"  placeholder="Carousel Heading">
-          <input class="form-control margin-top" type="text" placeholder="Carousel Sub-heading">
+          <input class="form-control margin-top" name="1_heading" type="text"  placeholder="Carousel Heading">
+          <input class="form-control margin-top" name="1_subHeading" type="text" placeholder="Carousel Sub-heading">
+          <input class="form-control margin-top" name="1_columnNo" type="number" min="1" max="3" value="1" placeholder="Column No? of 3">
+          <input class="btn btn-primary margin-top" type="submit" name="save1_column" value="Save Column">
         </div>
-        <input class="btn btn-primary margin-top" type="submit" value="Save">
       </form>
     </div>
   </div>
@@ -84,11 +86,15 @@
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
-        <form class="" action="" method="post">
-          <input class="btn btn-primary margin-top" type="file" value="Upload Image">
-          <input class="form-control margin-top" type="text" placeholder="Product/Service Feature">
-          <textarea class="form-control margin-top" rows="8" placeholder="Product or Service Content"></textarea>
-          <input class="btn btn-primary margin-top" type="submit" value="Save">
+        <form class="" action="edit-first-ps.php" method="post" enctype="multipart/form-data">
+          <input class="btn btn-primary margin-top" name="2_img_2" type="file" value="Upload Image">
+          <input class="btn btn-primary" type="submit" name="save2_img_2" value="Save Image">
+          <input class="form-control margin-top" name="2_features" type="text" placeholder="Product/Service Feature">
+          <input class="btn btn-primary" type="submit" name="save2_features" value="Save">
+          <textarea class="form-control margin-top" name="2_content" rows="8" placeholder="Product or Service Content"></textarea>
+          <input class="btn btn-primary" type="submit" name="save2_content" value="Save">
+          <br>
+          <input class="btn btn-primary margin-top" name="2_saveAll" type="submit" value="Save All">
         </form>
       </div>
     </div>
@@ -128,15 +134,23 @@
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
-        <form class="" action="" method="post">
-          <input class="btn btn-primary margin-top" type="file" value="Upload Image">
-          <input class="form-control margin-top" type="text" placeholder="Product Heading">
-          <input class="form-control margin-top" type="text" placeholder="Product Sub-Heading">
-          <textarea class="form-control margin-top" rows="8" placeholder="Product Description"></textarea>
-          <input class="form-control margin-top" type="text" placeholder="Selling Point 1">
-          <input class="form-control margin-top" type="text" placeholder="Selling Point 2">
-          <input class="form-control margin-top" type="text" placeholder="Selling Point 3">
-          <input class="btn btn-primary margin-top" type="submit" value="Save">
+        <form class="" action="edit-first-ps.php" method="post" enctype="multipart/form-data">
+          <input class="btn btn-primary margin-top" name="3_img_3" type="file" value="Upload Image">
+          <input class="btn btn-primary" type="submit" name="save3_img_3" value="Save Image">
+          <input class="form-control margin-top" name="3_heading" type="text" placeholder="Product Heading">
+          <input class="btn btn-primary" type="submit" name="save3_heading" value="Save">
+          <input class="form-control margin-top" name="3_subHeading" type="text" placeholder="Product Sub-Heading">
+          <input class="btn btn-primary" type="submit" name="save3_subHeading" value="Save">
+          <textarea class="form-control margin-top" name="3_description" rows="8" placeholder="Product Description"></textarea>
+          <input class="btn btn-primary" type="submit" name="save3_description" value="Save">
+          <input class="form-control margin-top" name="3_sellingPoint_1" type="text" placeholder="Selling Point 1">
+          <input class="btn btn-primary" type="submit" name="save3_sellingPoint_1" value="Save">
+          <input class="form-control margin-top" name="3_sellingPoint_2" type="text" placeholder="Selling Point 2">
+          <input class="btn btn-primary" type="submit" name="save3_sellingPoint_3" value="Save">
+          <input class="form-control margin-top" name="3_sellingPoint_3" type="text" placeholder="Selling Point 3">
+          <input class="btn btn-primary" type="submit" name="save3_sellingPoint_4" value="Save">
+          <br>
+          <input class="btn btn-primary margin-top" name="3_saveAll" type="submit" value="Save All">
         </form>
       </div>
     </div>
@@ -178,15 +192,15 @@
     </div>
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
-        <form class="" action="" method="post">
+        <form class="" action="edit-first-ps.php" method="post" enctype="multipart/form-data">
           <div class="row">
-            <input class="btn btn-primary form-inline margin-top" type="file" value="Upload Image">
-            <input class="form-control margin-top" type="number" name="name" placeholder="Image No? of 3">
+            <input class="btn btn-primary form-inline margin-top" name="4_img" type="file" value="Upload Image">
+            <input class="form-control margin-top" type="number" name="4_imgNo" placeholder="Image No? of 3">
+            <input class="btn btn-primary" type="submit" name="save4_img" value="Save Image">
           </div>
-          <input class="form-control margin-top" type="text" Placeholder="Column 1 text">
-          <input class="form-control margin-top" type="text" Placeholder="Column 2 text">
-          <input class="form-control margin-top" type="text" Placeholder="Column 3 text">
-          <input class="btn btn-primary margin-top" type="submit" value="Save">
+          <textarea class="form-control margin-top" name="4_text" rows="8" Placeholder="Column text"></textarea>
+          <input class="form-control margin-top" name="4_textNo" type="number" min="1" max="3" value="1" Placeholder="Column No? of 3">
+          <input class="btn btn-primary margin-top" name="save4_text" type="submit" value="Save Column">
         </form>
       </div>
     </div>
