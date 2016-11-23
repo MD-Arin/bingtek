@@ -18,9 +18,10 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
         <form class="" action="edit-fourth-ps.php" method="post" enctype="multipart/form-data">
-          <input class="btn btn-primary margin-top" type="button" value="Upload Image">
-          <textarea class="form-control margin-top" rows="8" placeholder="Content"></textarea>
-          <input class="btn btn-primary margin-top" type="submit" value="Save">
+          <input class="btn btn-primary margin-top" name="4_img_3" type="file" value="Upload Image">
+          <input class="btn btn-primary" type="submit" name="save4_img_3" value="Save">
+          <textarea class="form-control margin-top" name="4_content" rows="8" placeholder="Content"></textarea>
+          <input class="btn btn-primary" name="save4_content" type="submit" value="Save">
         </form>
       </div>
     </div>
