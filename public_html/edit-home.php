@@ -203,4 +203,8 @@
 
     refresh('home');
   }
+  else
+  {
+    refresh('home');
+  }
 ?>

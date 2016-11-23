@@ -21,6 +21,10 @@
 
       refresh('first-ps');
     }
+    else
+    {
+      refresh('first-ps');
+    }
   }
   elseif (isset($_POST['save1_column']))
   {
@@ -43,6 +47,10 @@
       uploadContent('first-ps_content', '1-carousel-caption-3.1', '1_heading');
       uploadContent('first-ps_content', '1-carousel-caption-3.2', '1_subHeading');
 
+      refresh('first-ps');
+    }
+    else
+    {
       refresh('first-ps');
     }
   }
@@ -152,6 +160,10 @@
 
       refresh('first-ps');
     }
+    else
+    {
+      refresh('first-ps');
+    }
   }
   elseif (isset($_POST['save4_text']))
   {
@@ -173,5 +185,13 @@
 
       refresh('first-ps');
     }
+    else
+    {
+      refresh('first-ps');
+    }
+  }
+  else
+  {
+    refresh('first-ps');
   }
  ?>

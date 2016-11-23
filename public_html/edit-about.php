@@ -132,6 +132,11 @@
 
       refresh('about');
     }
+    else
+    {
+      refresh('about');
+    }
+
   }
   elseif(isset($_POST['4_saveColumn']))
   {
@@ -168,6 +173,10 @@
       uploadContent('about_content', '3-h5-company-4', '4_company');
       uploadContent('about_content', '3-p-blockquote-4', '4_message');
 
+      refresh('about');
+    }
+    else
+    {
       refresh('about');
     }
   }
@@ -210,6 +219,10 @@
 
       refresh('about');
     }
+    else
+    {
+      about('about');
+    }
   }
 
   //Section 6 of about
@@ -231,6 +244,10 @@
     {
       uploadImages('about_content', '5-img-team-3', '6_imgPerson');
 
+      refresh('about');
+    }
+    else
+    {
       refresh('about');
     }
   }
@@ -257,5 +274,13 @@
 
       refresh('about');
     }
+    else
+    {
+      refresh('about');
+    }
+  }
+  else
+  {
+    refresh('about');
   }
  ?>

@@ -78,6 +78,10 @@
 
             refresh('second-ps');
         }
+        else
+        {
+            refresh('second-ps');
+        }
     }
     elseif (isset($_POST['save4_text']))
     {
@@ -93,5 +97,13 @@
 
             refresh('second-ps');
         }
+        else
+        {
+            refresh('second-ps');
+        }
+    }
+    else
+    {
+        refresh('second-ps');
     }
  ?>
