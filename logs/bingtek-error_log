@@ -914,3 +914,31 @@
 [Thu Nov 24 03:19:51.110479 2016] [:error] [pid 477] [client 127.0.0.1:51582] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 8
 [Thu Nov 24 03:19:51.218795 2016] [:error] [pid 477] [client 127.0.0.1:51582] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 51
 [Thu Nov 24 03:20:01.077977 2016] [:error] [pid 3514] [client 127.0.0.1:51596] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/dashboard.php on line 52
+[Thu Nov 24 04:33:51.551869 2016] [:error] [pid 3492] [client 127.0.0.1:51700] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:33:51.553908 2016] [:error] [pid 3492] [client 127.0.0.1:51700] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 51
+[Thu Nov 24 04:35:51.944309 2016] [:error] [pid 484] [client 127.0.0.1:51702] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:35:51.947909 2016] [:error] [pid 484] [client 127.0.0.1:51702] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 58
+[Thu Nov 24 04:35:59.347289 2016] [:error] [pid 3526] [client 127.0.0.1:51704] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:35:59.349321 2016] [:error] [pid 3526] [client 127.0.0.1:51704] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 58
+[Thu Nov 24 04:36:00.440025 2016] [:error] [pid 3526] [client 127.0.0.1:51704] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:36:00.441358 2016] [:error] [pid 3526] [client 127.0.0.1:51704] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 58
+[Thu Nov 24 04:36:00.932513 2016] [:error] [pid 3526] [client 127.0.0.1:51704] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:36:00.934888 2016] [:error] [pid 3526] [client 127.0.0.1:51704] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 58
+[Thu Nov 24 04:36:37.086854 2016] [:error] [pid 479] [client 127.0.0.1:51712] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:36:37.088397 2016] [:error] [pid 479] [client 127.0.0.1:51712] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 58
+[Thu Nov 24 04:36:51.109356 2016] [:error] [pid 3492] [client 127.0.0.1:51720] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:36:51.109411 2016] [:error] [pid 3492] [client 127.0.0.1:51720] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 14
+[Thu Nov 24 04:36:51.111283 2016] [:error] [pid 3492] [client 127.0.0.1:51720] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 58
+[Thu Nov 24 04:37:02.298625 2016] [:error] [pid 478] [client 127.0.0.1:51728] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:37:02.299756 2016] [:error] [pid 478] [client 127.0.0.1:51728] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 58
+[Thu Nov 24 04:37:20.924086 2016] [:error] [pid 3527] [client 127.0.0.1:51736] PHP Notice:  Undefined index:  in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:37:20.925650 2016] [:error] [pid 3527] [client 127.0.0.1:51736] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 58
+[Thu Nov 24 04:37:22.214846 2016] [:error] [pid 3527] [client 127.0.0.1:51736] PHP Notice:  Undefined index:  in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:37:22.216353 2016] [:error] [pid 3527] [client 127.0.0.1:51736] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 58
+[Thu Nov 24 04:37:23.005377 2016] [:error] [pid 3527] [client 127.0.0.1:51736] PHP Notice:  Undefined index:  in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:37:23.007538 2016] [:error] [pid 3527] [client 127.0.0.1:51736] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 58
+[Thu Nov 24 04:37:25.101062 2016] [:error] [pid 3527] [client 127.0.0.1:51736] PHP Notice:  Undefined index:  in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:37:25.102432 2016] [:error] [pid 3527] [client 127.0.0.1:51736] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 58
+[Thu Nov 24 04:37:39.785071 2016] [:error] [pid 3529] [client 127.0.0.1:51744] PHP Fatal error:  Cannot use [] for reading in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:37:57.469424 2016] [:error] [pid 3492] [client 127.0.0.1:51756] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 04:37:57.471685 2016] [:error] [pid 3492] [client 127.0.0.1:51756] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 58

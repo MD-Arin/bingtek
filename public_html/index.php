@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>
-      <?php
+      <?php        
         switch  ($_GET["q"])
         {
           case 'home':

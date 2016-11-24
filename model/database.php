@@ -52,10 +52,10 @@
         $login_default->execute();
       }
       //Debugging code. Comment out on production
-      else
-      {
-        echo "Could not insert into login_credentials";
-      }
+      // else
+      // {
+      //   echo "Could not insert into login_credentials";
+      // }
     }
     catch (Exception $e)
     {
