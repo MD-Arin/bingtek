@@ -96,3 +96,4 @@
   <script type="text/javascript" src="res/js/bootstrap.js"></script>
   <script type="text/javascript" src="res/js/holder.js"></script>
 </html>
+<!-- Version 1.0 -->
