@@ -333,6 +333,7 @@
     insert_content('fourth-ps_content', '5-p-2', 'Diam turpis iaculis. Nec sit non quam et, enim adipiscing elit pulvinar integer, libero neque. Interdum neque rutrum sed elit aliquam, ut luctus mollis nisl, tempor elit, metus aliquam arcu dis eos pulvinar elit, vel non nunc.');
     insert_image('fourth-ps_content', '5-img-2', 'res/images/placeholder-0.jpg');
   //Retrieval done
+  //Retrieval dash done
 
 
  ?>

@@ -911,3 +911,6 @@
 [Wed Nov 23 21:21:06.619085 2016] [:error] [pid 10481] [client 127.0.0.1:50370] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/dashboard.php on line 52
 [Wed Nov 23 21:21:28.867561 2016] [:error] [pid 540] [client 127.0.0.1:50388] PHP Notice:  Undefined index: 4_content in /projects/http/vhosts/bingtek/controllers/uploads.php on line 6, referer: http://www.bingtek.local/dashboard.php?q=fourth-ps
 [Wed Nov 23 21:21:28.867609 2016] [:error] [pid 540] [client 127.0.0.1:50388] PHP Notice:  Undefined index: 4_content in /projects/http/vhosts/bingtek/controllers/uploads.php on line 13, referer: http://www.bingtek.local/dashboard.php?q=fourth-ps
+[Thu Nov 24 03:19:51.110479 2016] [:error] [pid 477] [client 127.0.0.1:51582] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 8
+[Thu Nov 24 03:19:51.218795 2016] [:error] [pid 477] [client 127.0.0.1:51582] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/index.php on line 51
+[Thu Nov 24 03:20:01.077977 2016] [:error] [pid 3514] [client 127.0.0.1:51596] PHP Notice:  Undefined index: q in /projects/http/vhosts/bingtek/public_html/dashboard.php on line 52

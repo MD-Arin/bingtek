@@ -18,10 +18,10 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
         <form class="" action="edit-fourth-ps.php" method="post" enctype="multipart/form-data">
-          <input class="btn btn-primary margin-top" name="4_img_3" type="file" value="Upload Image">
-          <input class="btn btn-primary" type="submit" name="save4_img_3" value="Save">
-          <textarea class="form-control margin-top" name="4_content" rows="8" placeholder="Content"></textarea>
-          <input class="btn btn-primary" name="save4_content" type="submit" value="Save">
+          <input class="btn btn-primary margin-top" name="1_img_1" type="file" value="Upload Image">
+          <input class="btn btn-primary" type="submit" name="save1_img_1" value="Save">
+          <textarea class="form-control margin-top" name="1_content" rows="8" placeholder="Content"></textarea>
+          <input class="btn btn-primary" name="save1_content" type="submit" value="Save">
         </form>
       </div>
     </div>
@@ -40,7 +40,7 @@
           <img src="<?php retrieve_data('fourth-ps_content', '2-img-2', 'image_url');?>" class="img-thumbnail" />
         </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <h4><?php retrieve_data('third-ps_content', '2-h4-1', 'image_url');?></h4>
+          <h4><?php retrieve_data('third-ps_content', '2-h4-1', 'body_content');?></h4>
           <ul>
             <li><?php retrieve_data('fourth-ps_content', '2-li-1', 'body_content');?></li>
             <li><?php retrieve_data('fourth-ps_content', '2-li-2', 'body_content');?></li>
@@ -67,19 +67,27 @@
       <div class="row">
         <form class="" action="edit-fourth-ps.php" method="post" enctype="multipart/form-data">
           <div class="row">
-            <input class="btn btn-primary margin-top form-inline" type="file" value="Upload Image">
-            <input class="form-control margin-top" type="number" placeholder="Image No? of 2">
+            <input class="btn btn-primary margin-top form-inline" name="2_img_2" type="file" value="Upload Image">
+            <input class="form-control margin-top" name="2_imgColumn" type="number" min="1" max="2" value="1" placeholder="Image No? of 2">
+            <input class="btn btn-primary" type="submit" name="save2_img_2" value="Save Image">
           </div>
           <div class="row">
-            <input class="form-control margin-top" type="text" placeholder="pointer 1">
-            <input class="form-control margin-top" type="text" placeholder="pointer 2">
-            <input class="form-control margin-top" type="text" placeholder="pointer 3">
-            <input class="form-control margin-top" type="text" placeholder="pointer 4">
-            <input class="form-control margin-top" type="text" placeholder="pointer 5">
-            <input class="btn btn-primary margin-top" type="submit" value="Save">
-            <input class="form-control margin-top" type="text" placeholder="Heading">
-            <textarea class="form-control margin-top" rows="8" placeholder="Body Content"></textarea>
-            <input class="btn btn-primary margin-top" type="submit" value="Save">
+            <input class="form-control margin-top" name="2_point_1" type="text" placeholder="Point 1">
+            <input class="btn btn-primary" type="submit" name="save2_point_1" value="Save">
+            <input class="form-control margin-top" name="2_point_2" type="text" placeholder="Point 2">
+            <input class="btn btn-primary" type="submit" name="save2_point_2" value="Save">
+            <input class="form-control margin-top" name="2_point_3" type="text" placeholder="Point 3">
+            <input class="btn btn-primary" type="submit" name="save2_point_3" value="Save">
+            <input class="form-control margin-top" name="2_point_4" type="text" placeholder="Point 4">
+            <input class="btn btn-primary" type="submit" name="save2_point_4" value="Save">
+            <input class="form-control margin-top" name="2_point_5" type="text" placeholder="Point 5">
+            <input class="btn btn-primary" type="submit" name="save2_point_5" value="Save">
+            <input class="form-control margin-top" name="2_heading" type="text" placeholder="Heading">
+            <input class="btn btn-primary" type="submit" name="save2_heading" value="Save">
+            <textarea class="form-control margin-top" name="2_content" rows="8" placeholder="Body Content"></textarea>
+            <input class="btn btn-primary" type="submit" name="save2_content" value="Save">
+            <br>
+            <input class="btn btn-primary margin-top" name="2_saveAll" type="submit" value="Save All">
           </div>
         </form>
       </div>
@@ -108,10 +116,14 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
         <form class="" action="edit-fourth-ps.php" method="post" enctype="multipart/form-data">
-          <input class="form-control margin-top" type="text" placeholder="Heading">
-          <input class="form-control margin-top" type="text" placeholder="Sub-Heading">
-          <textarea class="form-control margin-top" rows="8" placeholder="Body Content"></textarea>
-          <input class="btn btn-primary margin-top" type="submit" value="Save">
+          <input class="form-control margin-top" name="3_heading" type="text" placeholder="Heading">
+          <input class="btn btn-primary" type="submit" name="save3_heading" value="Save">
+          <input class="form-control margin-top" name="3_subHeading" type="text" placeholder="Sub-Heading">
+          <input class="btn btn-primary" type="submit" name="save3_subHeading" value="Save">
+          <textarea class="form-control margin-top" name="3_content" rows="8" placeholder="Body Content"></textarea>
+          <input class="btn btn-primary" type="submit" name="save3_content" value="Save">
+          <br>
+          <input class="btn btn-primary margin-top" name=3_saveAll type="submit" value="Save All">
         </form>
       </div>
     </div>
@@ -144,14 +156,15 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
       <div class="row">
         <form class="" action="edit-fourth-ps.php" method="post" enctype="multipart/form-data">
-          <input class="btn btn-primary margin-top form-inline" type="file" value="Upload Image">
-          <input class="form-control margin-top" type="number" placeholder="Image No? of 2">
+          <input class="btn btn-primary margin-top form-inline" name="4_img_3" type="file" value="Upload Image">
+          <input class="form-control margin-top" type="number" min="1" max="2" value="1" name="4_imgColumn" placeholder="Image No? of 2">
+          <input class="btn btn-primary" type="submit" name="save4_img_3" value="Save Image">
           <br>
           <br>
           <br>
-          <textarea class="form-control margin-top" rows="8" placeholder="Body Content 1"></textarea>
-          <textarea class="form-control margin-top" rows="8" placeholder="Body Content 2"></textarea>
-          <input class="btn btn-primary margin-top" type="submit" value="Save">
+          <textarea class="form-control margin-top" name="4_content" rows="8" placeholder="Body Content 1"></textarea>
+          <input class="form-control margin-top" type="number" min="1" max="2" value="1" name="4_contentColumn" placeholder="Image No? of 2">
+          <input class="btn btn-primary" type="submit" name="save4_content" value="Save">
         </form>
       </div>
     </div>
